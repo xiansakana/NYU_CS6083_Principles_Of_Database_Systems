@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="96DC82ED-EF54-1382-EBFA-320B4BAECBF5" name="JC_Station">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 04:39:42 UTC</createdTime>
+<ownerDesignName>SAMTA</ownerDesignName>
+<engineerTo>
+<item key="76D58B1A-313A-103A-AB2C-EC98D3879A67" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="JC_Station_ID" id="B9BD4A67-BE06-48D5-944F-FD85081B8094">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 04:39:51 UTC</createdTime>
+<ownerDesignName>SAMTA</ownerDesignName>
+<engineerTo>
+<item key="76D58B1A-313A-103A-AB2C-EC98D3879A67" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="StationName" id="E66B4020-6054-A7D9-9C25-CE4677D31476">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 04:40:05 UTC</createdTime>
+<ownerDesignName>SAMTA</ownerDesignName>
+<engineerTo>
+<item key="76D58B1A-313A-103A-AB2C-EC98D3879A67" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="StationAddress" id="60C9CE8E-8C29-E825-E88E-3E96295423CD">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 04:40:37 UTC</createdTime>
+<ownerDesignName>SAMTA</ownerDesignName>
+<engineerTo>
+<item key="76D58B1A-313A-103A-AB2C-EC98D3879A67" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Borough" id="34695752-1252-1D6B-3CD9-6D3B9BEB7B16">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 04:40:52 UTC</createdTime>
+<ownerDesignName>SAMTA</ownerDesignName>
+<engineerTo>
+<item key="76D58B1A-313A-103A-AB2C-EC98D3879A67" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Neighborhood" id="CDBDDAF3-B562-6A9E-9224-C384CE97B846">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 04:41:00 UTC</createdTime>
+<ownerDesignName>SAMTA</ownerDesignName>
+<engineerTo>
+<item key="76D58B1A-313A-103A-AB2C-EC98D3879A67" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="JC_Line_ID" id="A06830BC-9B4E-7CBA-795B-C410CF905889">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 05:26:00 UTC</createdTime>
+<generatorID>BDC721EF-B56F-745F-E0E0-1722B2952FF5</generatorID>
+<ownerDesignName>SAMTA</ownerDesignName>
+<engineerTo>
+<item key="76D58B1A-313A-103A-AB2C-EC98D3879A67" value="true"/>
+</engineerTo>
+<referedAttribute>9364497A-766C-4759-8B76-BFCF11C6F420</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A0E0F331-4969-9493-F6DD-3A4BF26D921C" name="JC_SubwayStation PK">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 05:26:04 UTC</createdTime>
+<ownerDesignName>SAMTA</ownerDesignName>
+<engineerTo>
+<item key="76D58B1A-313A-103A-AB2C-EC98D3879A67" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B9BD4A67-BE06-48D5-944F-FD85081B8094</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

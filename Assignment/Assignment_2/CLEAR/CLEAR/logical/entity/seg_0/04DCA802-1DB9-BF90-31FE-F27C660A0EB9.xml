@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="04DCA802-1DB9-BF90-31FE-F27C660A0EB9" name="JC_EMPLOYEE">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 14:29:55 UTC</createdTime>
+<ownerDesignName>CLEAR</ownerDesignName>
+<engineerTo>
+<item key="F9CB1BED-C950-2711-FCB6-16BD739580C8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>52668295-0AD1-737B-A893-F16D0DC9D45E</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<generateDiscrimColumn>true</generateDiscrimColumn>
+<discriminatorAttributeID>6A4F08CE-3992-426A-5BDC-FDB88708450C</discriminatorAttributeID>
+<discriminatorValue>E</discriminatorValue>
+<completeSubtypes>true</completeSubtypes>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="EMP_ID" id="D05731B3-26FE-59B9-6FEB-4B0ECDCB878E">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 14:31:25 UTC</createdTime>
+<ownerDesignName>CLEAR</ownerDesignName>
+<engineerTo>
+<item key="F9CB1BED-C950-2711-FCB6-16BD739580C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HIRE_DATE" id="DB688E38-ABBA-7E88-EC4D-0428C0457D9A">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 14:32:37 UTC</createdTime>
+<ownerDesignName>CLEAR</ownerDesignName>
+<engineerTo>
+<item key="F9CB1BED-C950-2711-FCB6-16BD739580C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SALARY" id="D92E0E1B-E905-608C-5122-73EBB7918EC9">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 14:32:52 UTC</createdTime>
+<ownerDesignName>CLEAR</ownerDesignName>
+<engineerTo>
+<item key="F9CB1BED-C950-2711-FCB6-16BD739580C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DPT_NAME" id="497B5B80-EDF0-0C9E-52BC-8F72964BDFF2">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 14:34:11 UTC</createdTime>
+<ownerDesignName>CLEAR</ownerDesignName>
+<engineerTo>
+<item key="F9CB1BED-C950-2711-FCB6-16BD739580C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMP_TYPE" id="6A4F08CE-3992-426A-5BDC-FDB88708450C">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 16:15:09 UTC</createdTime>
+<ownerDesignName>CLEAR</ownerDesignName>
+<engineerTo>
+<item key="F9CB1BED-C950-2711-FCB6-16BD739580C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

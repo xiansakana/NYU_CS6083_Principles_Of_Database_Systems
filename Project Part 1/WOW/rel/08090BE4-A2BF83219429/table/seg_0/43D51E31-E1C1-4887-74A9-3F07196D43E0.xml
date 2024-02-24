@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="43D51E31-E1C1-4887-74A9-3F07196D43E0" name="JC_VEHICLE">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<generatorID>7705DD61-FABA-4865-FFCA-5138F810B64D</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="VEHICLE_VIN" id="ADB3C47C-1B1B-755D-6EE6-BB4433B497D2">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<comment><![CDATA[Vehicle Identification Number]]></comment>
+<commentInRDBMS><![CDATA[Vehicle Identification Number]]></commentInRDBMS>
+<generatorID>B26582E3-99AD-4F35-9E74-56F9F8239FAC</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>17</dataTypeSize>
+<ownDataTypeParameters>17,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VEHICLE_MAKE" id="CF34C5F0-D580-676D-F2F5-14B733CB1740">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<comment><![CDATA[VEHICLE MAKE]]></comment>
+<commentInRDBMS><![CDATA[VEHICLE MAKE]]></commentInRDBMS>
+<generatorID>61962C21-5E6A-F059-90F5-D0A2FACB3F42</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VEHICLE_MODEL" id="9DA4A505-FEE6-7047-81C9-F32B84D9562E">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<comment><![CDATA[VEHICLE MODEL]]></comment>
+<commentInRDBMS><![CDATA[VEHICLE MODEL]]></commentInRDBMS>
+<generatorID>27E6BC04-B4FD-F265-8D14-9D00A23CE8BC</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VEHICLE_YEAR" id="1C326417-B36F-2BC2-5739-E4849A1237A4">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<comment><![CDATA[VEHICLE YEAR]]></comment>
+<commentInRDBMS><![CDATA[VEHICLE YEAR]]></commentInRDBMS>
+<generatorID>E239B8D5-098D-3F08-F573-4F4E5E034052</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LICENSE_PLATE_NO" id="6AA57B75-A199-944A-6C96-F67E1D520288">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<comment><![CDATA[LICENSE PLATE NUMBER]]></comment>
+<commentInRDBMS><![CDATA[LICENSE PLATE NUMBER]]></commentInRDBMS>
+<generatorID>5046AD2E-6992-E22C-B49D-291297FA45CA</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOC_ID" id="AC144F13-6F27-A11C-A811-1ED70D88FCA4">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<comment><![CDATA[location id]]></comment>
+<commentInRDBMS><![CDATA[location id]]></commentInRDBMS>
+<generatorID>D659DE19-2F87-92BE-ABBE-F1FB8C9E8A0E</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FA0DDB91-587C-2278-2A2F-0338F679AF6C" referredColumn="775B9166-A363-CEF8-4F2F-B740F9B11A0F"/>
+</associations>
+</Column>
+<Column name="VEHICLE_ID" id="61865898-44F1-26C6-1DC7-7C0A276FA795">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<comment><![CDATA[vehicle id]]></comment>
+<commentInRDBMS><![CDATA[vehicle id]]></commentInRDBMS>
+<generatorID>4F76594F-7CE9-0FE5-7F5E-C7A3107C23CA</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08AD48A2-FEA5-7F22-024E-093C2B5B52AA" referredColumn="7E296479-E5D0-8BB2-56CD-B3262D357519"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0A849E9D-2E01-2F2E-B73D-C618DFADDA4D" name="JC_VEHICLE_PK">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<generatorID>EF32D541-60C2-897E-3BB6-089487FBCEB1</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ADB3C47C-1B1B-755D-6EE6-BB4433B497D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6FA4ECC6-2082-B536-35F1-069FB41D5027" name="JC_VEHICLE_JC_LOC_FK">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<generatorID>AEF982C3-DD27-45D3-4BDD-A3D1E6C6AE39</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC144F13-6F27-A11C-A811-1ED70D88FCA4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7420BC71-2637-2586-F9EF-7B7DB9FB7CA5" name="JC_VEHICLE_JC_VEHICLE_CLASS_FK">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<generatorID>70EC0EC5-5D87-079D-8030-494E0B8E71A9</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61865898-44F1-26C6-1DC7-7C0A276FA795"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

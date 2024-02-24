@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="160A1CF4-4385-025E-941A-4BBAEC24B8C0" name="JC_CUST">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:19:40 UTC</createdTime>
+<generatorID>901597A6-DE2D-B305-479E-D8CE2A7E3833</generatorID>
+<ownerDesignName>ACME</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CUST_ID" id="14B59EDC-DA21-ED00-1D9D-D23D4FBB8FE1">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:19:40 UTC</createdTime>
+<generatorID>983723B0-8759-9F07-0F4F-0645953D5BE0</generatorID>
+<ownerDesignName>ACME</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_FNAME" id="B3962CBF-5032-F9B7-5FD5-207A3EE425BB">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:19:40 UTC</createdTime>
+<generatorID>47FA7E8F-539D-492B-31DA-27831EDD5F1E</generatorID>
+<ownerDesignName>ACME</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_LNAME" id="64365E3E-EF7A-4528-951A-E2E033083B88">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:19:40 UTC</createdTime>
+<generatorID>649C905C-F4FD-65EE-1ED2-A550DED1090A</generatorID>
+<ownerDesignName>ACME</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STORE_ID" id="7CDCA62F-D271-2D5F-E499-F029C4245E2F">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:19:40 UTC</createdTime>
+<generatorID>8C85DA62-29D0-6B61-C6DE-651C37C00AD0</generatorID>
+<ownerDesignName>ACME</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C1E66A33-4781-8978-745C-912BCFF055CD" referredColumn="8E120277-D464-963F-423B-F8AE2D5115FE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FCE39933-FB48-D507-3150-2C1898BE2453" name="JC_CUST_PK">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:19:40 UTC</createdTime>
+<generatorID>C610E34F-81EB-52C5-0CAC-E364E6EC76F4</generatorID>
+<ownerDesignName>ACME</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14B59EDC-DA21-ED00-1D9D-D23D4FBB8FE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="85D3039F-EE26-4F2E-D727-82F5AB3FD2D5" name="JC_CUST_JC_STORE_FK">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:19:40 UTC</createdTime>
+<generatorID>7FF3BE11-15DC-432B-C379-3FA7670C5CAC</generatorID>
+<ownerDesignName>ACME</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7CDCA62F-D271-2D5F-E499-F029C4245E2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

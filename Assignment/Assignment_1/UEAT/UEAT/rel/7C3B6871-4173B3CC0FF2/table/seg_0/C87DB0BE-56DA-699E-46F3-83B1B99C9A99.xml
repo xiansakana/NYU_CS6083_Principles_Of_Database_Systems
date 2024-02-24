@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C87DB0BE-56DA-699E-46F3-83B1B99C9A99" name="JC_Courier">
+<sourceDDLFile>UEAT.sql</sourceDDLFile>
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<comment><![CDATA[Courier
+]]></comment>
+<commentInRDBMS><![CDATA[Courier]]></commentInRDBMS>
+<ownerDesignName>UEAT</ownerDesignName>
+<importedID>AF14DC31-E702-64BC-F27E-BCA0009A44F0</importedID>
+<ordsAlias>courier</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="JC_Courier_ID" id="15AE2459-5B99-05D6-CAC2-63AC2479D1D2">
+<sourceDDLFile>UEAT.sql</sourceDDLFile>
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+<importedID>069C0F89-767E-E720-0B1A-9DCDEBDA368F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BF7D0C06-10C1-1F9E-ED49-989D77C5F9B8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_JC_Courier_Phone_Number</notNullConstraintName>
+</Column>
+<Column name="Name" id="F5A0D835-52ED-1763-EE63-A856D611234C">
+<sourceDDLFile>UEAT.sql</sourceDDLFile>
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+<importedID>ED1143FA-2601-96DD-ED55-12564909ADDD</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>496A4691-64FC-7CE5-6F83-96F7F333F8AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_JC_Courier_Name</notNullConstraintName>
+</Column>
+<Column name="Age" id="230F36D0-67C8-E52F-A5A2-282A30D20748">
+<sourceDDLFile>UEAT.sql</sourceDDLFile>
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+<importedID>53E577E7-4D86-42F5-1DDF-C4A154054218</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D4F5ABEF-A1F3-6C4D-44B2-D7D263E1C5D9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_JC_Courier_Age</notNullConstraintName>
+</Column>
+<Column name="Home_Address" id="2296603F-34FF-4CD7-0566-D7B305EBEE79">
+<sourceDDLFile>UEAT.sql</sourceDDLFile>
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+<importedID>363432CD-1AC7-ED25-3FD2-3A5D7AC46D8A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6D9DC3E6-5019-37FB-A187-C60FBBA650E8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_JC_Courier_Home_Address</notNullConstraintName>
+</Column>
+<Column name="Vehicle_Type" id="69361760-066F-2753-D20E-DE3DC7DD700C">
+<sourceDDLFile>UEAT.sql</sourceDDLFile>
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+<importedID>BB8367F7-55B1-2F09-00E6-72C8EE56B368</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BF7D0C06-10C1-1F9E-ED49-989D77C5F9B8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_JC_Courier_Vehicle_Type</notNullConstraintName>
+</Column>
+<Column name="Vehicle_Plate_Number" id="302A4978-AC81-B362-5DBE-99678586DD33">
+<sourceDDLFile>UEAT.sql</sourceDDLFile>
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+<importedID>BF61EF3F-E719-5202-C673-1329FBDF4AA3</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BF7D0C06-10C1-1F9E-ED49-989D77C5F9B8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gender" id="651766D4-BF93-28F7-5627-F9BC6B595EA6">
+<sourceDDLFile>UEAT.sql</sourceDDLFile>
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+<importedID>8945C13F-8FE6-3C85-69B9-7C8641CEE054</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>445C21FE-DF7E-3FFB-CD44-8B4CAD86ADC1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_JC_Courier_Gender</notNullConstraintName>
+</Column>
+<Column name="Bank_Account_Number" id="09C5FC1C-BB31-8CF4-857F-F56B65A36D68">
+<sourceDDLFile>UEAT.sql</sourceDDLFile>
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+<importedID>11853D55-EC9B-BA5D-64E3-0B4DB7879A25</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BF7D0C06-10C1-1F9E-ED49-989D77C5F9B8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Bank_Routing_Number" id="A0A1F7F2-0F2B-76AC-ABF9-D600C86EBB20">
+<sourceDDLFile>UEAT.sql</sourceDDLFile>
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+<importedID>7D2EFFBE-B346-7876-BFDC-F82C59DCA4A3</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BF7D0C06-10C1-1F9E-ED49-989D77C5F9B8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="81331973-113B-2B67-0BEF-AEB110C5A14A" name="JC_Courier_PK">
+<sourceDDLFile>UEAT.sql</sourceDDLFile>
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+<importedID>3DD01627-F58E-1499-8B1A-83B02D155EA3</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15AE2459-5B99-05D6-CAC2-63AC2479D1D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

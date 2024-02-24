@@ -1,0 +1,164 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EB987F77-04FF-F810-B083-9DE76A11B32B" name="JC_EMP">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-05 17:09:53 UTC</createdTime>
+<ownerDesignName>Practice</ownerDesignName>
+<engineerTo>
+<item key="9243792A-5DC2-6424-5E63-AE348C0DF3D9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="EMPNO" id="733CE5CE-141C-08F0-8BEA-BC3158200BA3">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-05 17:13:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[Employee ID Number]]></commentInRDBMS>
+<ownerDesignName>Practice</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9243792A-5DC2-6424-5E63-AE348C0DF3D9" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EFNAME" id="9448B011-0EEB-C1C1-91B3-951B8E55E258">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-05 17:20:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[Employee First Name]]></commentInRDBMS>
+<ownerDesignName>Practice</ownerDesignName>
+<engineerTo>
+<item key="9243792A-5DC2-6424-5E63-AE348C0DF3D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ELNAME" id="DEE8321B-7A9F-5AD5-FE4B-C42DACDDE998">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-05 18:03:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[Employee Last Name]]></commentInRDBMS>
+<ownerDesignName>Practice</ownerDesignName>
+<engineerTo>
+<item key="9243792A-5DC2-6424-5E63-AE348C0DF3D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="JOB" id="7A12EA9D-5F21-D646-C2D2-97FB7DE44A97">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-05 18:04:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[Employee Functional Role]]></commentInRDBMS>
+<ownerDesignName>Practice</ownerDesignName>
+<engineerTo>
+<item key="9243792A-5DC2-6424-5E63-AE348C0DF3D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MGR" id="40907F78-85A0-AD0B-4F3D-EE109BEFB477">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-05 18:05:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Employee Manager ID]]></commentInRDBMS>
+<ownerDesignName>Practice</ownerDesignName>
+<engineerTo>
+<item key="9243792A-5DC2-6424-5E63-AE348C0DF3D9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HIREDATE" id="24ADB20F-D2EE-BE1E-C7D1-69AA782F9B1A">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-05 18:05:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[Empoyee Join Date]]></commentInRDBMS>
+<ownerDesignName>Practice</ownerDesignName>
+<engineerTo>
+<item key="9243792A-5DC2-6424-5E63-AE348C0DF3D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SAL" id="FBFDF796-C863-6DC2-BD1F-590867323005">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-05 18:06:02 UTC</createdTime>
+<commentInRDBMS><![CDATA[Employee Monthly Salary in USD]]></commentInRDBMS>
+<ownerDesignName>Practice</ownerDesignName>
+<engineerTo>
+<item key="9243792A-5DC2-6424-5E63-AE348C0DF3D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COMM" id="CD38D38A-FFB6-CA15-97BC-BAE1A93A9B60">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-05 18:08:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Employee Commission]]></commentInRDBMS>
+<ownerDesignName>Practice</ownerDesignName>
+<engineerTo>
+<item key="9243792A-5DC2-6424-5E63-AE348C0DF3D9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DEPTNO" id="C83713AA-B1B4-D26F-8645-94DCAEAAF2BC">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-05 20:26:42 UTC</createdTime>
+<generatorID>4F069CEF-A1CB-E7C0-04DE-501E6F74F7D1</generatorID>
+<ownerDesignName>Practice</ownerDesignName>
+<engineerTo>
+<item key="9243792A-5DC2-6424-5E63-AE348C0DF3D9" value="true"/>
+</engineerTo>
+<referedAttribute>AF3B79CF-06E4-E4E5-A30A-075FBDC8AE99</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ABC6D333-D9AF-7000-F9F6-D97966617601" name="JC_EMP PK">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-05 20:26:26 UTC</createdTime>
+<ownerDesignName>Practice</ownerDesignName>
+<engineerTo>
+<item key="9243792A-5DC2-6424-5E63-AE348C0DF3D9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>733CE5CE-141C-08F0-8BEA-BC3158200BA3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B35290D9-928B-C6BF-781E-E190A08A3405" name="DISCOUNT_INDI">
+<createdBy>cj</createdBy>
+<createdTime>2023-11-09 20:25:45 UTC</createdTime>
+<ownerDesignName>WOW</ownerDesignName>
+<engineerTo>
+<item key="08090BE4-B1A1-F67B-C30F-A2BF83219429" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>6BE357E5-1653-44D5-C367-3A2259614DC6</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<discriminatorValue>I</discriminatorValue>
+<completeSubtypes>true</completeSubtypes>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DISC_PERC" id="EDBB0962-8BCB-1AC0-548C-FA9459A7040F">
+<createdBy>cj</createdBy>
+<createdTime>2023-11-09 20:26:04 UTC</createdTime>
+<comment><![CDATA[percentage of discount offered for individual]]></comment>
+<commentInRDBMS><![CDATA[percentage of discount offered for individual]]></commentInRDBMS>
+<ownerDesignName>WOW</ownerDesignName>
+<engineerTo>
+<item key="08090BE4-B1A1-F67B-C30F-A2BF83219429" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="START_DATE" id="95DAA093-9F31-38DC-D27F-50A77DCC6CE0">
+<createdBy>cj</createdBy>
+<createdTime>2023-11-09 20:27:15 UTC</createdTime>
+<comment><![CDATA[discount coupon start date]]></comment>
+<commentInRDBMS><![CDATA[discount coupon start date]]></commentInRDBMS>
+<ownerDesignName>WOW</ownerDesignName>
+<engineerTo>
+<item key="08090BE4-B1A1-F67B-C30F-A2BF83219429" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="END_DATE" id="7B41FF7C-A2DA-3FAA-75AE-CD2B0B9149C9">
+<createdBy>cj</createdBy>
+<createdTime>2023-11-09 20:27:42 UTC</createdTime>
+<comment><![CDATA[discount coupon end date]]></comment>
+<commentInRDBMS><![CDATA[discount coupon end date]]></commentInRDBMS>
+<ownerDesignName>WOW</ownerDesignName>
+<engineerTo>
+<item key="08090BE4-B1A1-F67B-C30F-A2BF83219429" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

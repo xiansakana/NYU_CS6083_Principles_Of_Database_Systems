@@ -1,0 +1,170 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="78B832C5-C012-2A6E-CEC3-F027E50F8689" name="JC_ADDR">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:19:40 UTC</createdTime>
+<generatorID>6F13F490-EB13-EACA-B529-7B09800D0ED9</generatorID>
+<ownerDesignName>ACME</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ADDR_ID" id="9EE4C848-E792-047B-D4EC-D4117249120F">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:19:40 UTC</createdTime>
+<generatorID>0D51C114-AEAA-B4A0-7E3B-E1AEA332A9CE</generatorID>
+<ownerDesignName>ACME</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BILL_STR" id="996BA442-AECC-8344-073B-58179C3A9A8C">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:19:40 UTC</createdTime>
+<generatorID>08682A50-C633-FDB6-4A48-2B530A18AC13</generatorID>
+<ownerDesignName>ACME</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BILL_CITY" id="A51A11CB-71D5-14EA-4C73-80D9BEC02BF3">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:19:40 UTC</createdTime>
+<generatorID>37B947A8-609B-DCEC-8E28-C54A7F6893CC</generatorID>
+<ownerDesignName>ACME</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BILL_STATE" id="8DBDD172-5099-ABC4-85D9-B97599F8D7F7">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:19:40 UTC</createdTime>
+<generatorID>46FE7D8B-26E7-043C-6927-60DC8D4D64D1</generatorID>
+<ownerDesignName>ACME</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BILL_ZIPCODE" id="47EB7388-4408-93BE-94E6-8BB4858E6A35">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:19:40 UTC</createdTime>
+<generatorID>45979CC3-BB18-F971-E3B5-16549E2E36BE</generatorID>
+<ownerDesignName>ACME</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SHIP_STR" id="2599F46B-74B5-529B-D915-2B1AB2D8EB10">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:19:40 UTC</createdTime>
+<generatorID>6B70DD67-1918-BC15-5646-A9C1731CE4D4</generatorID>
+<ownerDesignName>ACME</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SHIP_CITY" id="47D7CC58-A83C-C3F9-B20E-510FFF867537">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:19:40 UTC</createdTime>
+<generatorID>2A4FD639-1B44-BF65-FF21-3876DA9B5797</generatorID>
+<ownerDesignName>ACME</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SHIP_STATE" id="B7B5110B-5D04-A718-0721-081102E49A2A">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:19:40 UTC</createdTime>
+<generatorID>D0F565B7-4A90-CB93-8E80-8155906A00A6</generatorID>
+<ownerDesignName>ACME</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SHIP_ZIPCODE" id="4F7D16F8-E476-7DFE-D736-E65D31CB9084">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:19:40 UTC</createdTime>
+<generatorID>B56E6483-9487-50BA-5BDF-B5ACFFB4297C</generatorID>
+<ownerDesignName>ACME</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDER_ID" id="B880F567-5687-AFA3-C214-8AB35CBBB512">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:19:40 UTC</createdTime>
+<ownerDesignName>ACME</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AC028412-0A36-2B40-4FCF-761E54405266" referredColumn="8F0320A5-79D8-3A6D-F1F7-B7819E8A5FE0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="97F3043A-FA6F-35A9-A805-9735BDAA08D2" name="JC_ADDR_PK">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:19:40 UTC</createdTime>
+<generatorID>83D62FA8-7A3A-E283-534B-22A7F47A997F</generatorID>
+<ownerDesignName>ACME</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9EE4C848-E792-047B-D4EC-D4117249120F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="03601FEC-89C2-4EA3-9815-168EC7B3CA3A" name="JC_ADDR__IDX">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:19:40 UTC</createdTime>
+<ownerDesignName>ACME</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>9EE1B3B7-2E8F-5AD6-AA19-0026991AF92D</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B880F567-5687-AFA3-C214-8AB35CBBB512"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A27790E-12CE-B2A4-BB4E-C5AD54E6FD3B" name="JC_ADDR_JC_ORDER_FK">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:19:40 UTC</createdTime>
+<generatorID>9EE1B3B7-2E8F-5AD6-AA19-0026991AF92D</generatorID>
+<ownerDesignName>ACME</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B880F567-5687-AFA3-C214-8AB35CBBB512"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

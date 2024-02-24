@@ -1,0 +1,72 @@
+{% extends "base_template.html" %}
+
+{% block title %}Home - Car Rental{% endblock %}
+
+{% block content %}
+   <div class="container mx-auto px-6">
+    <h1 class="text-4xl font-bold mb-8 text-center">
+     Gallery
+    </h1>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+     <!-- Gallery item -->
+     <div class="bg-gray-800 p-4 rounded-lg shadow-lg">
+      <img alt="Luxury Car" class="rounded-lg mb-4" height="200" src="{{ url_for('static', filename='images/6.jpg') }}" width="300"/>
+      <h3 class="text-xl font-semibold mb-2">
+       Luxury Car
+      </h3>
+      <p class="text-gray-400">
+       Experience the ultimate luxury and performance.
+      </p>
+     </div>
+     <!-- Repeat for other gallery items -->
+     <div class="bg-gray-800 p-4 rounded-lg shadow-lg">
+      <img alt="Sports Car" class="rounded-lg mb-4" height="200" src="{{ url_for('static', filename='images/7.jpg') }}" width="300"/>
+      <h3 class="text-xl font-semibold mb-2">
+       Sports Car
+      </h3>
+      <p class="text-gray-400">
+       Feel the speed and power of our sports cars.
+      </p>
+     </div>
+     <div class="bg-gray-800 p-4 rounded-lg shadow-lg">
+      <img alt="Classic Car" class="rounded-lg mb-4" height="200" src="{{ url_for('static', filename='images/8.jpg') }}" width="300"/>
+      <h3 class="text-xl font-semibold mb-2">
+       Classic Car
+      </h3>
+      <p class="text-gray-400">
+       Take a ride back in time with a classic beauty.
+      </p>
+     </div>
+     <!-- More gallery items... -->
+     <div class="bg-gray-800 p-4 rounded-lg shadow-lg">
+      <img alt="Convertible Car" class="rounded-lg mb-4" height="200" src="{{ url_for('static', filename='images/9.jpg') }}" width="300"/>
+      <h3 class="text-xl font-semibold mb-2">
+       Convertible Car
+      </h3>
+      <p class="text-gray-400">
+       Enjoy the fresh air with our stylish convertibles.
+      </p>
+     </div>
+     <div class="bg-gray-800 p-4 rounded-lg shadow-lg">
+      <img alt="Electric Car" class="rounded-lg mb-4" height="200" src="{{ url_for('static', filename='images/10.jpg') }}" width="300"/>
+      <h3 class="text-xl font-semibold mb-2">
+       Electric Car
+      </h3>
+      <p class="text-gray-400">
+       Drive the future with our electric vehicle selections.
+      </p>
+     </div>
+     <div class="bg-gray-800 p-4 rounded-lg shadow-lg">
+      <img alt="SUV" class="rounded-lg mb-4" height="200" src="{{ url_for('static', filename='images/11.png') }}" width="300"/>
+      <h3 class="text-xl font-semibold mb-2">
+       SUV
+      </h3>
+      <p class="text-gray-400">
+       Get ready for an adventure with our rugged SUVs.
+      </p>
+     </div>
+     <!-- Add as many gallery items as needed -->
+    </div>
+   </div>
+  </main>
+{% endblock %}

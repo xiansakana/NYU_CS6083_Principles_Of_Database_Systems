@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DDCF174A-7A33-5927-6367-D10997464C1F" name="JC_EMP">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:19:40 UTC</createdTime>
+<generatorID>6067AC47-5124-089C-E7C6-C28A3BC79883</generatorID>
+<ownerDesignName>ACME</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMP_ID" id="5B38EFCC-D1B1-60D2-E5B7-DDA0E2122637">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:19:40 UTC</createdTime>
+<generatorID>E76EB339-54D4-27F3-8236-8B29598218AE</generatorID>
+<ownerDesignName>ACME</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMP_FNAME" id="6FB6B791-437A-5832-55B8-231758677290">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:19:40 UTC</createdTime>
+<generatorID>CAC5566E-88C5-4016-E97C-32C94D89B408</generatorID>
+<ownerDesignName>ACME</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMP_LNAME" id="24AFC396-B410-6295-86E8-4CA61FD34584">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:19:40 UTC</createdTime>
+<generatorID>75F5086E-5809-3E27-63D1-BA8C99C1B460</generatorID>
+<ownerDesignName>ACME</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMP_EMAIL" id="B820BBE9-A5F8-7A4B-9873-1B478F45F661">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:19:40 UTC</createdTime>
+<generatorID>DA1CB23E-D219-8B85-672B-C7F88EF981D5</generatorID>
+<ownerDesignName>ACME</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMP_PHONE" id="29E4675F-B5AA-F4D5-3A5F-9A9FCAA1E05E">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:19:40 UTC</createdTime>
+<generatorID>CFB2DE34-0F3C-6CAC-EBFC-9717098A4FEA</generatorID>
+<ownerDesignName>ACME</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STORE_ID" id="9BC03422-7B49-B8B2-F97C-112ECB2FF454">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:19:40 UTC</createdTime>
+<generatorID>BC136F65-4137-6045-FF0F-8DB5BF93B638</generatorID>
+<ownerDesignName>ACME</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D09EB1EB-8159-9987-3BCF-FADAD09CE9F8" referredColumn="8E120277-D464-963F-423B-F8AE2D5115FE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B1FE9BCC-EA10-8B40-1F37-A17268EC5026" name="JC_EMP_PK">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:19:40 UTC</createdTime>
+<generatorID>D7C6C56C-05FA-9540-A1E7-CBF055746BBD</generatorID>
+<ownerDesignName>ACME</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B38EFCC-D1B1-60D2-E5B7-DDA0E2122637"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1D4B7087-3618-9A67-5221-6C082006BAFE" name="JC_EMP_JC_STORE_FK">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:19:40 UTC</createdTime>
+<generatorID>E1C4F86A-44F9-012A-769D-6CBCC5FC2A3D</generatorID>
+<ownerDesignName>ACME</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9BC03422-7B49-B8B2-F97C-112ECB2FF454"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

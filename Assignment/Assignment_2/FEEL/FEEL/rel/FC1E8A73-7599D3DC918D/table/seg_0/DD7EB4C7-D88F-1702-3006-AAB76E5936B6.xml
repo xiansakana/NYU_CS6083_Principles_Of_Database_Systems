@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DD7EB4C7-D88F-1702-3006-AAB76E5936B6" name="JC_CUSTOMER">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 19:07:16 UTC</createdTime>
+<generatorID>DB59488E-57D3-D79E-8892-0A252214D780</generatorID>
+<ownerDesignName>FEEL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CUST_ID" id="740DB6BB-ACC0-6A90-D74B-708941969EB8">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 19:07:16 UTC</createdTime>
+<generatorID>E55CA8FE-C482-CA1F-1E68-3CB6AB7399E7</generatorID>
+<ownerDesignName>FEEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_FNAME" id="E5C938CC-3A1A-FF65-AC0A-60EF04ED1E08">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 19:07:16 UTC</createdTime>
+<generatorID>C36169C5-7745-770D-2353-03A984860B43</generatorID>
+<ownerDesignName>FEEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_LNAME" id="62751446-8D60-7BCC-047F-BAD81E60A994">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 19:07:16 UTC</createdTime>
+<generatorID>A55BC01D-9395-86BB-3366-3AE985EC49FA</generatorID>
+<ownerDesignName>FEEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_STR" id="EB4D0CC9-5FB4-5BC1-4C2E-8B1B4ED9E060">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 19:07:16 UTC</createdTime>
+<generatorID>4B79D27D-641B-9A05-EF30-5A2D570085BF</generatorID>
+<ownerDesignName>FEEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_CITY" id="3FCC47E1-829A-C4CB-6F2F-6F2D14F9D28C">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 19:07:16 UTC</createdTime>
+<generatorID>336C23AD-BD85-7826-4084-0C7A940C67C9</generatorID>
+<ownerDesignName>FEEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_STATE" id="3BB3FB5B-D8E5-F9A7-D0DF-98F6C22F7ECA">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 19:07:16 UTC</createdTime>
+<generatorID>84980810-9854-9EA4-BEC0-FA43AB7D27C9</generatorID>
+<ownerDesignName>FEEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_ZIPCODE" id="9CF7807B-6003-395F-EF31-4315B2F0803A">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 19:07:16 UTC</createdTime>
+<generatorID>A098B740-04DE-AA4C-23FF-E78F297A8E51</generatorID>
+<ownerDesignName>FEEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B71A33F6-A92F-072D-E36E-CA9DECEAEAE8" name="JC_CUSTOMER_PK">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 19:07:16 UTC</createdTime>
+<generatorID>45316B17-222E-0669-D9E1-12A195AB7887</generatorID>
+<ownerDesignName>FEEL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="740DB6BB-ACC0-6A90-D74B-708941969EB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

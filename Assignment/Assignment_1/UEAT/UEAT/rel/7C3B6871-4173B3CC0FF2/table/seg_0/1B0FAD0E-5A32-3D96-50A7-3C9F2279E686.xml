@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1B0FAD0E-5A32-3D96-50A7-3C9F2279E686" name="JC_Restaurant">
+<sourceDDLFile>UEAT.sql</sourceDDLFile>
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<comment><![CDATA[Restaurant]]></comment>
+<commentInRDBMS><![CDATA[Restaurant]]></commentInRDBMS>
+<ownerDesignName>UEAT</ownerDesignName>
+<importedID>460D3840-E080-7EAA-2B9E-992C5D497AAC</importedID>
+<ordsAlias>restaurant</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="JC_Restaurant_ID" id="454A9421-E56C-F5FF-36AD-F4ABFC56EF24">
+<sourceDDLFile>UEAT.sql</sourceDDLFile>
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+<importedID>B3673A34-8C3A-071F-E0D9-D9FBAE3AF3BA</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6D9DC3E6-5019-37FB-A187-C60FBBA650E8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_JC_Restaurant_Name</notNullConstraintName>
+</Column>
+<Column name="Address" id="E44B0A22-A1A7-CF55-B4D4-F821B8652318">
+<sourceDDLFile>UEAT.sql</sourceDDLFile>
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+<importedID>10EEA362-39BA-8D5E-C7B5-84D4FA08723B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6D9DC3E6-5019-37FB-A187-C60FBBA650E8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_JC_Restaurant_Address</notNullConstraintName>
+</Column>
+<Column name="Phone_Number" id="922B1699-D3B0-55E3-F9F0-1AE98F375709">
+<sourceDDLFile>UEAT.sql</sourceDDLFile>
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+<importedID>AF23F2AB-6557-106A-41D5-81360DF49F72</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BF7D0C06-10C1-1F9E-ED49-989D77C5F9B8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_JC_Restaurant_Phone_Number</notNullConstraintName>
+</Column>
+<Column name="Website_URL" id="3D1AF9A3-7F40-220B-ADA0-69F199651846">
+<sourceDDLFile>UEAT.sql</sourceDDLFile>
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+<importedID>D5756E69-86BC-7B38-0A18-9C4A2F99EC4A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6D9DC3E6-5019-37FB-A187-C60FBBA650E8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Specialty" id="56676006-3554-10AD-D7C3-4F94CB2A5142">
+<sourceDDLFile>UEAT.sql</sourceDDLFile>
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+<importedID>4A6A2B76-7A41-A1AB-6C35-9C24CD254491</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6D9DC3E6-5019-37FB-A187-C60FBBA650E8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_JC_Restaurant_Specialty</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="26834336-251F-4A2D-1AB1-BFBF00D8432D" name="JC_Restaurant_PK">
+<sourceDDLFile>UEAT.sql</sourceDDLFile>
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+<importedID>8FC7CE88-4262-9DEF-8B4A-C8900A47E507</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="454A9421-E56C-F5FF-36AD-F4ABFC56EF24"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

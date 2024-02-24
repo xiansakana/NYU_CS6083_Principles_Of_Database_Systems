@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1F57E133-DFBC-745E-5423-2BE5DB2A8CB0" name="JC_CUST_ORDER">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 19:07:16 UTC</createdTime>
+<generatorID>55CFB656-1E54-962F-AD53-DF72BD7AFFFE</generatorID>
+<ownerDesignName>FEEL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ORDER_QUALITY" id="F4EA5FDD-2BE9-74FC-CF6D-0B088B742DD9">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 19:07:16 UTC</createdTime>
+<generatorID>33A222C1-7234-4366-13B9-3EC009CF0392</generatorID>
+<ownerDesignName>FEEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROD_ID" id="859F8102-1A68-B6F9-020F-F16E439AEB46">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 19:07:16 UTC</createdTime>
+<generatorID>EB56F5AD-B3BB-7A7C-CBF6-805F00FE111D</generatorID>
+<ownerDesignName>FEEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B911F6C1-26BE-365A-9683-4F0BA305C311" referredColumn="3C3FACBB-488D-D1B3-5737-3FD8E158CC9B"/>
+</associations>
+</Column>
+<Column name="ORDER_ID" id="BD016510-C7BE-A94E-D2F1-128BA907D240">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 19:07:16 UTC</createdTime>
+<generatorID>B909CC15-D37A-4EBF-1EBB-16005CFA80A2</generatorID>
+<ownerDesignName>FEEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3E75D26E-A938-9849-18F3-6AF093FA38F6" referredColumn="19FD78A4-AE43-E3F6-2CCB-1B3653F02401"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7600D47C-246D-D688-53F6-FBFB49D42BD2" name="JC_CUST_ORDER_JC_ORDER_FK">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 19:07:16 UTC</createdTime>
+<generatorID>0D7FC66F-8EB5-04FA-E422-8C64EA5916E8</generatorID>
+<ownerDesignName>FEEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD016510-C7BE-A94E-D2F1-128BA907D240"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B1CE834F-04A2-905B-BF43-C384D749F8E6" name="JC_CUST_ORDER_JC_PRODUCT_FK">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 19:07:16 UTC</createdTime>
+<generatorID>6BE54EE5-490F-3FC7-8244-33D95E4F730A</generatorID>
+<ownerDesignName>FEEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="859F8102-1A68-B6F9-020F-F16E439AEB46"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

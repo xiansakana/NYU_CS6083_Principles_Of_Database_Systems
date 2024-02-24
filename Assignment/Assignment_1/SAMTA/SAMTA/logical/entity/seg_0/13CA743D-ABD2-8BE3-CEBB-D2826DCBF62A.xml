@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="13CA743D-ABD2-8BE3-CEBB-D2826DCBF62A" name="JC_Operation">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 04:37:06 UTC</createdTime>
+<ownerDesignName>SAMTA</ownerDesignName>
+<engineerTo>
+<item key="76D58B1A-313A-103A-AB2C-EC98D3879A67" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="JC_Operation_ID" id="779B869A-18E0-E1FB-F3D0-3351DA30F110">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 04:37:35 UTC</createdTime>
+<ownerDesignName>SAMTA</ownerDesignName>
+<engineerTo>
+<item key="76D58B1A-313A-103A-AB2C-EC98D3879A67" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ArrivalDateTime" id="24858FCE-0625-123E-5ABF-5ED6AD92C8B2">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 04:38:28 UTC</createdTime>
+<ownerDesignName>SAMTA</ownerDesignName>
+<engineerTo>
+<item key="76D58B1A-313A-103A-AB2C-EC98D3879A67" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DepartureDateTime" id="F6F47BC4-80F4-A65E-9935-00C861266947">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 04:38:45 UTC</createdTime>
+<ownerDesignName>SAMTA</ownerDesignName>
+<engineerTo>
+<item key="76D58B1A-313A-103A-AB2C-EC98D3879A67" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LocalExpressMixed" id="970F3917-30EC-5B63-C4E7-FA8C68DAF1BC">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 04:38:59 UTC</createdTime>
+<ownerDesignName>SAMTA</ownerDesignName>
+<engineerTo>
+<item key="76D58B1A-313A-103A-AB2C-EC98D3879A67" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="JC_Line_ID" id="B400FA30-951F-3476-89DF-5EB48EFB2F7A">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 05:26:00 UTC</createdTime>
+<generatorID>1123A1AD-D5D5-6C68-2C95-17B84D146D57</generatorID>
+<ownerDesignName>SAMTA</ownerDesignName>
+<engineerTo>
+<item key="76D58B1A-313A-103A-AB2C-EC98D3879A67" value="true"/>
+</engineerTo>
+<referedAttribute>9364497A-766C-4759-8B76-BFCF11C6F420</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="JC_Station_ID" id="05D374FB-3F32-90C9-A42B-DF301C147A75">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 05:26:04 UTC</createdTime>
+<generatorID>C8C55B40-18EB-510F-32E4-343839A763C6</generatorID>
+<ownerDesignName>SAMTA</ownerDesignName>
+<engineerTo>
+<item key="76D58B1A-313A-103A-AB2C-EC98D3879A67" value="true"/>
+</engineerTo>
+<referedAttribute>B9BD4A67-BE06-48D5-944F-FD85081B8094</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DDFD379B-78A3-A735-143B-F6F7148E6C26" name="JC_SubwayOperation PK">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 05:25:55 UTC</createdTime>
+<ownerDesignName>SAMTA</ownerDesignName>
+<engineerTo>
+<item key="76D58B1A-313A-103A-AB2C-EC98D3879A67" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>779B869A-18E0-E1FB-F3D0-3351DA30F110</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

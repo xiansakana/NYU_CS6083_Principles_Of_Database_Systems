@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="928AEF7D-0533-B5CE-7B1A-97366BAC1252" name="JC_PRODUCT">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 18:35:32 UTC</createdTime>
+<ownerDesignName>FEEL</ownerDesignName>
+<engineerTo>
+<item key="FC1E8A73-4B35-D5A2-1097-7599D3DC918D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PROD_ID" id="A2C1FB04-6AEA-2D60-3BCE-D76FA41DEE0C">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 18:35:43 UTC</createdTime>
+<ownerDesignName>FEEL</ownerDesignName>
+<engineerTo>
+<item key="FC1E8A73-4B35-D5A2-1097-7599D3DC918D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROD_DESCRIPTION" id="0A6B05F5-331D-35F6-459F-3558ADC39D2F">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 18:36:27 UTC</createdTime>
+<ownerDesignName>FEEL</ownerDesignName>
+<engineerTo>
+<item key="FC1E8A73-4B35-D5A2-1097-7599D3DC918D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROD_FINISH" id="555DF76F-294B-A71F-E522-CB98BF686407">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 18:37:12 UTC</createdTime>
+<ownerDesignName>FEEL</ownerDesignName>
+<engineerTo>
+<item key="FC1E8A73-4B35-D5A2-1097-7599D3DC918D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROD_STD_PRICE" id="9800336D-380A-6693-519C-C4133E25B0E2">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 18:37:52 UTC</createdTime>
+<ownerDesignName>FEEL</ownerDesignName>
+<engineerTo>
+<item key="FC1E8A73-4B35-D5A2-1097-7599D3DC918D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DC620DBD-1C26-5866-D50B-1A424AA2F485" name="JC_PRODUCT PK">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 18:35:55 UTC</createdTime>
+<ownerDesignName>FEEL</ownerDesignName>
+<engineerTo>
+<item key="FC1E8A73-4B35-D5A2-1097-7599D3DC918D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A2C1FB04-6AEA-2D60-3BCE-D76FA41DEE0C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

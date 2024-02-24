@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8092D580-0C07-686B-A975-F20B5A2AF402" name="INDIVIDUAL">
+<createdBy>cj</createdBy>
+<createdTime>2023-11-09 16:46:07 UTC</createdTime>
+<ownerDesignName>WOW</ownerDesignName>
+<engineerTo>
+<item key="08090BE4-B1A1-F67B-C30F-A2BF83219429" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>BB77EBF3-E14D-12FA-7CA9-C962275521DE</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<discriminatorValue>I</discriminatorValue>
+<completeSubtypes>true</completeSubtypes>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DRV_LICENSE_NO" id="BF417B7D-C648-A74F-7062-1B8066B16FD6">
+<createdBy>cj</createdBy>
+<createdTime>2023-11-09 16:50:48 UTC</createdTime>
+<comment><![CDATA[ Driver License Number]]></comment>
+<commentInRDBMS><![CDATA[ Driver License Number]]></commentInRDBMS>
+<ownerDesignName>WOW</ownerDesignName>
+<engineerTo>
+<item key="08090BE4-B1A1-F67B-C30F-A2BF83219429" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INS_CMP_NAME" id="DDCDE95B-FE31-4DE7-5D5A-3E86B1CC1A6E">
+<createdBy>cj</createdBy>
+<createdTime>2023-11-09 17:02:52 UTC</createdTime>
+<comment><![CDATA[Insurance Company Name]]></comment>
+<commentInRDBMS><![CDATA[Insurance Company Name]]></commentInRDBMS>
+<ownerDesignName>WOW</ownerDesignName>
+<engineerTo>
+<item key="08090BE4-B1A1-F67B-C30F-A2BF83219429" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INS_POL_NO" id="7FA9009E-63BC-A8A7-E015-81C705B3FEEC">
+<createdBy>cj</createdBy>
+<createdTime>2023-11-09 17:03:39 UTC</createdTime>
+<comment><![CDATA[Insurance Policy Number]]></comment>
+<commentInRDBMS><![CDATA[Insurance Policy Number]]></commentInRDBMS>
+<ownerDesignName>WOW</ownerDesignName>
+<engineerTo>
+<item key="08090BE4-B1A1-F67B-C30F-A2BF83219429" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="994111E9-9745-0A72-4336-763DE4BB720C" name="INDIVIDUAL PK">
+<createdBy>cj</createdBy>
+<createdTime>2023-11-09 20:48:00 UTC</createdTime>
+<ownerDesignName>WOW</ownerDesignName>
+<engineerTo>
+<item key="08090BE4-B1A1-F67B-C30F-A2BF83219429" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BF417B7D-C648-A74F-7062-1B8066B16FD6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

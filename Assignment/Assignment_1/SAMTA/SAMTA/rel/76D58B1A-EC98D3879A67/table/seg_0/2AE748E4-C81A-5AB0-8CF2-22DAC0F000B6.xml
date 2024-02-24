@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2AE748E4-C81A-5AB0-8CF2-22DAC0F000B6" name="JC_Station">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 04:54:05 UTC</createdTime>
+<comment><![CDATA[StationID]]></comment>
+<commentInRDBMS><![CDATA[StationID]]></commentInRDBMS>
+<generatorID>96DC82ED-EF54-1382-EBFA-320B4BAECBF5</generatorID>
+<ownerDesignName>SAMTA</ownerDesignName>
+<ordsAlias>jc_subwaystation</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="JC_Station_ID" id="572F97F7-66B7-D866-63C3-5BE5AC20F279">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 04:54:05 UTC</createdTime>
+<generatorID>B9BD4A67-BE06-48D5-944F-FD85081B8094</generatorID>
+<ownerDesignName>SAMTA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_JC_Station_JC_Station_ID</notNullConstraintName>
+</Column>
+<Column name="StationName" id="88AFBE86-4F8E-1546-E3D2-C7F81CF9E5C1">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 04:54:05 UTC</createdTime>
+<generatorID>E66B4020-6054-A7D9-9C25-CE4677D31476</generatorID>
+<ownerDesignName>SAMTA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_JC_Station_StationName</notNullConstraintName>
+</Column>
+<Column name="StationAddress" id="BC8A3A59-3BAE-43FE-B7BA-85558FE714E2">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 04:54:05 UTC</createdTime>
+<generatorID>60C9CE8E-8C29-E825-E88E-3E96295423CD</generatorID>
+<ownerDesignName>SAMTA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_JC_Station_StationAddress</notNullConstraintName>
+</Column>
+<Column name="Borough" id="68BF4AAD-EB1D-90E7-EEE8-8AAF58C284F2">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 04:54:05 UTC</createdTime>
+<generatorID>34695752-1252-1D6B-3CD9-6D3B9BEB7B16</generatorID>
+<ownerDesignName>SAMTA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_JC_Station_Borough</notNullConstraintName>
+</Column>
+<Column name="Neighborhood" id="918C03A7-FD48-502D-C16E-2EE443DE627A">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 04:54:05 UTC</createdTime>
+<generatorID>CDBDDAF3-B562-6A9E-9224-C384CE97B846</generatorID>
+<ownerDesignName>SAMTA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_JC_Station_Neighborhood</notNullConstraintName>
+</Column>
+<Column name="JC_Trainline_JC_Trainline_ID" id="7CA8A36C-E937-27A6-CFA3-355BE5AB7C25">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 05:07:32 UTC</createdTime>
+<ownerDesignName>SAMTA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_JC_Station_JC_Trainline_ID</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="4A01FCC9-C094-E938-B166-3F44BCABF12F" referredColumn="FE248DC1-38E7-A92A-95B1-C0A7BB7D9779"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D8B54148-41E0-EA12-3715-F41D821C2076" name="JC_Station_PK">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 04:54:05 UTC</createdTime>
+<ownerDesignName>SAMTA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="572F97F7-66B7-D866-63C3-5BE5AC20F279"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F2CF0E1C-CBD0-38D9-E8DD-F11D6AB9A0D8" name="JC_Station_JC_Trainline_FK">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 04:54:05 UTC</createdTime>
+<generatorID>BDC721EF-B56F-745F-E0E0-1722B2952FF5</generatorID>
+<ownerDesignName>SAMTA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7CA8A36C-E937-27A6-CFA3-355BE5AB7C25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

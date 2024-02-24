@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EB1F27FB-30D7-57BD-9583-9C5FB4B97D30" name="JC_STAFF">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 17:20:43 UTC</createdTime>
+<generatorID>5D330501-84EE-0BB7-2F7B-40E9DC282F7E</generatorID>
+<ownerDesignName>CLEAR</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PERSON_ID" id="2568F2BA-4C5A-0B76-5F62-9D1C8D7043CA">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 17:20:43 UTC</createdTime>
+<generatorID>0F66022F-4B4E-3375-9E19-4A36630F6BBE</generatorID>
+<ownerDesignName>CLEAR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E7BB4EC3-9FF8-60BA-0ED6-0E06F64DF9EB" referredColumn="CAC98B09-2740-6FC6-240A-B913DEB00566"/>
+</associations>
+</Column>
+<Column name="JOB_TITLE" id="8BADECEC-0EC3-3615-136E-471894F1AF79">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 17:20:43 UTC</createdTime>
+<generatorID>F37C0EE3-023C-A4F7-94BE-8A9167F1E59C</generatorID>
+<ownerDesignName>CLEAR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PER_TYPE" id="848EAA76-4BA9-599B-E943-B8039A0B392A">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 17:20:43 UTC</createdTime>
+<generatorID>2F778B87-2A5D-AC8E-CE89-25A769A45B42</generatorID>
+<ownerDesignName>CLEAR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E7BB4EC3-9FF8-60BA-0ED6-0E06F64DF9EB" referredColumn="110211B8-7403-04B7-350E-27034F0F30C2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EE8BB7FE-8DF2-3E6F-4675-4B72D4D96EA7" name="JC_STAFF_PK">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 17:20:43 UTC</createdTime>
+<generatorID>A44BA661-6D8C-B236-C661-0CFE3F25279E</generatorID>
+<ownerDesignName>CLEAR</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2568F2BA-4C5A-0B76-5F62-9D1C8D7043CA"/>
+<colUsage columnID="848EAA76-4BA9-599B-E943-B8039A0B392A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="39E90AE1-ECE8-FD98-8FB4-8D5ED8DDF537" name="JC_STAFF_JC_EMPLOYEE_FK">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 17:20:43 UTC</createdTime>
+<generatorID>F03725F9-CA0E-FA0F-1B4C-B1DE67475DB7</generatorID>
+<ownerDesignName>CLEAR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2568F2BA-4C5A-0B76-5F62-9D1C8D7043CA"/>
+<colUsage columnID="848EAA76-4BA9-599B-E943-B8039A0B392A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

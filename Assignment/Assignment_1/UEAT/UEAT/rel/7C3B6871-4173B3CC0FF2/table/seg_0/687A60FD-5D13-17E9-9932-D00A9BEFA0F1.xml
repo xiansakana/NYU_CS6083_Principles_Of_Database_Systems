@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="687A60FD-5D13-17E9-9932-D00A9BEFA0F1" name="JC_Customer">
+<sourceDDLFile>UEAT.sql</sourceDDLFile>
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<comment><![CDATA[Customer]]></comment>
+<commentInRDBMS><![CDATA[Customer]]></commentInRDBMS>
+<ownerDesignName>UEAT</ownerDesignName>
+<importedID>D8A53F58-D3D4-5064-F18E-DB634F119E51</importedID>
+<ordsAlias>customer</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="JC_Customer_ID" id="4A462DA2-236F-FE1F-5255-DC7F1019DEFF">
+<sourceDDLFile>UEAT.sql</sourceDDLFile>
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+<importedID>544FFAE3-DAE8-88E2-F7A3-D6B570E2DDCF</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BF7D0C06-10C1-1F9E-ED49-989D77C5F9B8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_JC_Customer_Phone_Number</notNullConstraintName>
+</Column>
+<Column name="Name" id="22C88F29-A4DE-E577-AE32-2B9CDEED14EB">
+<sourceDDLFile>UEAT.sql</sourceDDLFile>
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+<importedID>8653DA1F-79D0-E0D0-9E23-2AA91B1960B0</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>496A4691-64FC-7CE5-6F83-96F7F333F8AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_JC_Customer_Name</notNullConstraintName>
+</Column>
+<Column name="Age" id="DEC76BD5-715A-7941-589D-4B06E63ABB24">
+<sourceDDLFile>UEAT.sql</sourceDDLFile>
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+<importedID>79FA6272-917A-0049-34A7-6C29C21F2959</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D4F5ABEF-A1F3-6C4D-44B2-D7D263E1C5D9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_JC_Customer_Age</notNullConstraintName>
+</Column>
+<Column name="Home_Address" id="32FF0EB9-9E1E-C9A6-278A-3CED253EAE8A">
+<sourceDDLFile>UEAT.sql</sourceDDLFile>
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+<importedID>37B7B048-0DA2-232E-BA67-A75462DD3B89</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6D9DC3E6-5019-37FB-A187-C60FBBA650E8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_JC_Customer_Home_Address</notNullConstraintName>
+</Column>
+<Column name="Email_Address" id="B9AF7039-976E-BE76-62D0-EA55B5A231AD">
+<sourceDDLFile>UEAT.sql</sourceDDLFile>
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+<importedID>63471BDA-7A2C-8963-A166-4892656A18B0</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6D9DC3E6-5019-37FB-A187-C60FBBA650E8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_JC_Customer_Email_Address</notNullConstraintName>
+</Column>
+<Column name="Customer_Type" id="4170B0E4-9065-18B8-C67B-8D882C4960F5">
+<sourceDDLFile>UEAT.sql</sourceDDLFile>
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+<importedID>B4A69855-71BD-0183-BBCF-5F4631AB8994</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BF7D0C06-10C1-1F9E-ED49-989D77C5F9B8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_JC_Customer_Customer_Type</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FFFA1F67-58C8-1668-F44C-69A8AA1C5674" name="JC_Customer_PK">
+<sourceDDLFile>UEAT.sql</sourceDDLFile>
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+<importedID>D6881604-8FE9-65F9-97A1-991E438E64C2</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A462DA2-236F-FE1F-5255-DC7F1019DEFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

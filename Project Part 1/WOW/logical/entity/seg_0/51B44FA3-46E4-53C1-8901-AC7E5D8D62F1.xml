@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="51B44FA3-46E4-53C1-8901-AC7E5D8D62F1" name="CORPORATE">
+<createdBy>cj</createdBy>
+<createdTime>2023-11-09 17:10:02 UTC</createdTime>
+<ownerDesignName>WOW</ownerDesignName>
+<engineerTo>
+<item key="08090BE4-B1A1-F67B-C30F-A2BF83219429" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>BB77EBF3-E14D-12FA-7CA9-C962275521DE</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<discriminatorValue>C</discriminatorValue>
+<completeSubtypes>true</completeSubtypes>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="EMP_ID" id="C075D885-6FBD-1852-6979-7D634C8BF7CE">
+<createdBy>cj</createdBy>
+<createdTime>2023-11-09 17:16:05 UTC</createdTime>
+<comment><![CDATA[Employee ID of the customer who rents the car on a corporate account]]></comment>
+<commentInRDBMS><![CDATA[Employee ID of the customer who rents the car on a corporate account]]></commentInRDBMS>
+<ownerDesignName>WOW</ownerDesignName>
+<engineerTo>
+<item key="08090BE4-B1A1-F67B-C30F-A2BF83219429" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CORP_NAME" id="6AB7038F-46BE-8FF8-6A2D-BA5C3E64B32F">
+<createdBy>cj</createdBy>
+<createdTime>2023-11-09 17:10:18 UTC</createdTime>
+<comment><![CDATA[details of corporation name]]></comment>
+<commentInRDBMS><![CDATA[details of corporation name]]></commentInRDBMS>
+<ownerDesignName>WOW</ownerDesignName>
+<engineerTo>
+<item key="08090BE4-B1A1-F67B-C30F-A2BF83219429" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="REG_NO" id="A871D2C1-9D3E-4B83-A901-ACD4E15B3EC3">
+<createdBy>cj</createdBy>
+<createdTime>2023-11-09 17:10:56 UTC</createdTime>
+<comment><![CDATA[registration number of the corporation]]></comment>
+<commentInRDBMS><![CDATA[registration number of the corporation]]></commentInRDBMS>
+<ownerDesignName>WOW</ownerDesignName>
+<engineerTo>
+<item key="08090BE4-B1A1-F67B-C30F-A2BF83219429" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="33756CC5-A3DD-7110-89E1-89976672AC51" name="CORPORATE PK">
+<createdBy>cj</createdBy>
+<createdTime>2023-11-09 20:06:01 UTC</createdTime>
+<ownerDesignName>WOW</ownerDesignName>
+<engineerTo>
+<item key="08090BE4-B1A1-F67B-C30F-A2BF83219429" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C075D885-6FBD-1852-6979-7D634C8BF7CE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

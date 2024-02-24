@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B4443E30-9377-E246-C9A0-2D3A72E96D15" name="JC_INVOICE">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<generatorID>64D83D36-8B97-3C9E-3FC0-9FA9AD349B90</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="INVOICE_ID" id="CAD398BD-50E4-99BC-05B6-C5BB08640AE2">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<comment><![CDATA[Invoice id]]></comment>
+<commentInRDBMS><![CDATA[Invoice id]]></commentInRDBMS>
+<generatorID>426FC88B-DED1-6F78-22A3-481911865E8E</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INVOICE_DATE" id="EC4CC954-5D18-3F31-FF13-05128C372343">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<comment><![CDATA[INVOICE DATE]]></comment>
+<commentInRDBMS><![CDATA[INVOICE DATE]]></commentInRDBMS>
+<generatorID>BF2B8666-E3AE-B2E4-E6D1-4031A489E638</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INVOICE_AMOUNT" id="AFCAA383-941F-4035-4847-A8DFE180E4F5">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<comment><![CDATA[INVOICE AMOUNT]]></comment>
+<commentInRDBMS><![CDATA[INVOICE AMOUNT]]></commentInRDBMS>
+<generatorID>F01E7AD0-01AF-4987-CA64-143C844D1558</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SERVICE_ID" id="0950341E-AC58-0DB3-B7F4-8D323D95B968">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<comment><![CDATA[service id]]></comment>
+<commentInRDBMS><![CDATA[service id]]></commentInRDBMS>
+<generatorID>3230FC88-86AB-3541-2454-45F9D3FB1AB2</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2C485746-2634-4453-4364-315E00B172C5" referredColumn="FC2B6BF0-0B6A-7C00-B003-EBE99E0AEF77"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5052068E-CC33-8EDE-2C51-F30A9C576FCE" name="JC_INVOICE_PK">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<generatorID>9172B479-C87B-E3CA-8704-36F2029C303D</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CAD398BD-50E4-99BC-05B6-C5BB08640AE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D0E6861-4B26-4880-C5E1-FF7BDCCE7B02" name="JC_INVOICE_JC_SERVICE_FK">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<generatorID>68E98B89-82F9-D31E-12B5-6ED139E722D3</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0950341E-AC58-0DB3-B7F4-8D323D95B968"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

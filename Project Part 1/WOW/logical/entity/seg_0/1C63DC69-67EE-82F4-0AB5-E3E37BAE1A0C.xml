@@ -1,0 +1,161 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1C63DC69-67EE-82F4-0AB5-E3E37BAE1A0C" name="JC_SERVICE">
+<createdBy>cj</createdBy>
+<createdTime>2023-11-09 18:33:07 UTC</createdTime>
+<ownerDesignName>WOW</ownerDesignName>
+<engineerTo>
+<item key="08090BE4-B1A1-F67B-C30F-A2BF83219429" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SERVICE_ID" id="CF7FA584-08FA-BB85-CF05-28782E2BF9AD">
+<createdBy>cj</createdBy>
+<createdTime>2023-11-09 18:36:10 UTC</createdTime>
+<comment><![CDATA[rent service id]]></comment>
+<commentInRDBMS><![CDATA[rent service id]]></commentInRDBMS>
+<ownerDesignName>WOW</ownerDesignName>
+<engineerTo>
+<item key="08090BE4-B1A1-F67B-C30F-A2BF83219429" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DAYS_NO" id="32774BEE-3E78-5555-32D6-DB5E85D09529">
+<createdBy>cj</createdBy>
+<createdTime>2023-11-09 18:41:04 UTC</createdTime>
+<comment><![CDATA[rent service days number]]></comment>
+<commentInRDBMS><![CDATA[rent service days number]]></commentInRDBMS>
+<ownerDesignName>WOW</ownerDesignName>
+<engineerTo>
+<item key="08090BE4-B1A1-F67B-C30F-A2BF83219429" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="START_ODO" id="71CFA4F8-9E06-D48A-E9BE-571F6337F909">
+<createdBy>cj</createdBy>
+<createdTime>2023-11-09 18:42:16 UTC</createdTime>
+<comment><![CDATA[rent service start odometer]]></comment>
+<commentInRDBMS><![CDATA[rent service start odometer]]></commentInRDBMS>
+<ownerDesignName>WOW</ownerDesignName>
+<engineerTo>
+<item key="08090BE4-B1A1-F67B-C30F-A2BF83219429" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="END_ODO" id="7D94F660-B5D4-0F56-D40E-124E3708D773">
+<createdBy>cj</createdBy>
+<createdTime>2023-11-09 18:46:37 UTC</createdTime>
+<comment><![CDATA[rent service end odometer]]></comment>
+<commentInRDBMS><![CDATA[rent service end odometer]]></commentInRDBMS>
+<ownerDesignName>WOW</ownerDesignName>
+<engineerTo>
+<item key="08090BE4-B1A1-F67B-C30F-A2BF83219429" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LOC_ID" id="65CE7F92-37C6-270D-DE65-2671E0724479">
+<createdBy>cj</createdBy>
+<createdTime>2023-11-09 20:48:37 UTC</createdTime>
+<comment><![CDATA[pickup location]]></comment>
+<commentInRDBMS><![CDATA[pickup location]]></commentInRDBMS>
+<generatorID>A44552CD-0664-31D1-A967-F1791927D9F5</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<engineerTo>
+<item key="08090BE4-B1A1-F67B-C30F-A2BF83219429" value="true"/>
+</engineerTo>
+<referedAttribute>0BDD704E-706F-87D6-3370-8808B43042BF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LOC_ID1" id="FF6063D9-1CE3-5156-A6C4-264B344C2B80">
+<createdBy>cj</createdBy>
+<createdTime>2023-11-09 20:48:43 UTC</createdTime>
+<comment><![CDATA[dropoff location]]></comment>
+<commentInRDBMS><![CDATA[dropoff location]]></commentInRDBMS>
+<generatorID>2530F2D5-1422-CFFE-6695-9739C7045122</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<engineerTo>
+<item key="08090BE4-B1A1-F67B-C30F-A2BF83219429" value="true"/>
+</engineerTo>
+<referedAttribute>0BDD704E-706F-87D6-3370-8808B43042BF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DISCOUNT_ID" id="BBF05858-1954-EDC7-583E-AD5090AC8896">
+<createdBy>cj</createdBy>
+<createdTime>2023-11-09 20:56:31 UTC</createdTime>
+<comment><![CDATA[discount id]]></comment>
+<commentInRDBMS><![CDATA[discount id]]></commentInRDBMS>
+<generatorID>7D2F7D15-AC01-00C7-9DC4-3C5DD04516E7</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<engineerTo>
+<item key="08090BE4-B1A1-F67B-C30F-A2BF83219429" value="true"/>
+</engineerTo>
+<referedAttribute>240B3FC1-E799-1DE0-889E-B386EE9E3791</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CUST_ID" id="089D990B-913F-AB78-5558-D7A98699AB85">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-06 22:22:50 UTC</createdTime>
+<comment><![CDATA[customer id]]></comment>
+<generatorID>8B7A31A7-E05A-7158-5937-26435266D27C</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<engineerTo>
+<item key="08090BE4-B1A1-F67B-C30F-A2BF83219429" value="true"/>
+</engineerTo>
+<referedAttribute>11144BF7-8309-1511-0BFB-7008151CD636</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="73E179C0-3BA7-DE17-3FFC-BE84B4079D27" name="SERVICE PK">
+<createdBy>cj</createdBy>
+<createdTime>2023-11-09 18:36:27 UTC</createdTime>
+<ownerDesignName>WOW</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="08090BE4-B1A1-F67B-C30F-A2BF83219429" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CF7FA584-08FA-BB85-CF05-28782E2BF9AD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="80FCAD44-1DF8-AFCC-E04F-89E4626E9BAD" name="JC_FACULTY">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 16:14:00 UTC</createdTime>
+<ownerDesignName>CLEAR</ownerDesignName>
+<engineerTo>
+<item key="F9CB1BED-C950-2711-FCB6-16BD739580C8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>04DCA802-1DB9-BF90-31FE-F27C660A0EB9</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<discriminatorValue>F</discriminatorValue>
+<completeSubtypes>true</completeSubtypes>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="FACULTY_RANK" id="9B45A20D-25FF-796A-2B7B-013874884D99">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 16:14:27 UTC</createdTime>
+<ownerDesignName>CLEAR</ownerDesignName>
+<engineerTo>
+<item key="F9CB1BED-C950-2711-FCB6-16BD739580C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

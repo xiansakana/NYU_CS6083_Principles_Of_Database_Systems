@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="containsv1" directorySegmentName="seg_0" id="883BE1C8-59F2-6700-92DC-E4DAAE27D5D0">
+<createdBy>cj</createdBy>
+<createdTime>2023-09-28 02:17:26 UTC</createdTime>
+<ownerDesignName>FAME Enterprise Model</ownerDesignName>
+<engineerTo>
+<item key="5C9E289B-A4E9-3A61-52E9-1E243C9D80F7" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>33A516AA-C884-2CF4-52DB-F6A728C78263</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3FE78102-6534-269B-7822-4E0F177C9F20</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

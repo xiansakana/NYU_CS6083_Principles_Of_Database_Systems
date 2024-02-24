@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="901597A6-DE2D-B305-479E-D8CE2A7E3833" name="JC_CUST">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 15:40:54 UTC</createdTime>
+<ownerDesignName>ACME</ownerDesignName>
+<engineerTo>
+<item key="84D0E316-63C3-DF5D-888B-E5DFFA277AF0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CUST_ID" id="983723B0-8759-9F07-0F4F-0645953D5BE0">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 15:41:05 UTC</createdTime>
+<ownerDesignName>ACME</ownerDesignName>
+<engineerTo>
+<item key="84D0E316-63C3-DF5D-888B-E5DFFA277AF0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CUST_FNAME" id="47FA7E8F-539D-492B-31DA-27831EDD5F1E">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 15:41:34 UTC</createdTime>
+<ownerDesignName>ACME</ownerDesignName>
+<engineerTo>
+<item key="84D0E316-63C3-DF5D-888B-E5DFFA277AF0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CUST_LNAME" id="649C905C-F4FD-65EE-1ED2-A550DED1090A">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 15:41:52 UTC</createdTime>
+<ownerDesignName>ACME</ownerDesignName>
+<engineerTo>
+<item key="84D0E316-63C3-DF5D-888B-E5DFFA277AF0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STORE_ID" id="8C85DA62-29D0-6B61-C6DE-651C37C00AD0">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:07:40 UTC</createdTime>
+<generatorID>7FF3BE11-15DC-432B-C379-3FA7670C5CAC</generatorID>
+<ownerDesignName>ACME</ownerDesignName>
+<engineerTo>
+<item key="84D0E316-63C3-DF5D-888B-E5DFFA277AF0" value="true"/>
+</engineerTo>
+<referedAttribute>4B63DB4E-62EC-1993-50E6-4822E551B152</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C610E34F-81EB-52C5-0CAC-E364E6EC76F4" name="JC_CUST PK">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 15:41:26 UTC</createdTime>
+<ownerDesignName>ACME</ownerDesignName>
+<engineerTo>
+<item key="84D0E316-63C3-DF5D-888B-E5DFFA277AF0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>983723B0-8759-9F07-0F4F-0645953D5BE0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

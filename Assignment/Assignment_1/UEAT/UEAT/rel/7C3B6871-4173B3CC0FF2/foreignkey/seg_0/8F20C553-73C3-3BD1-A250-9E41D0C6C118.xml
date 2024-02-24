@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8F20C553-73C3-3BD1-A250-9E41D0C6C118" containerWithKeyObject="80B294A0-25F2-6F75-380B-8F4D094D1DE4" localFKIndex="9AD42E5B-CB95-8EF4-6B3B-5BE1AA2DFFAA" name="JC_Orders_JC_Courier_FK">
+<sourceDDLFile>UEAT.sql</sourceDDLFile>
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+<importedID>19DFB427-1DB0-22EB-B967-54CBA7BF3D69</importedID>
+<referredTableLongName>JC_Courier</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C87DB0BE-56DA-699E-46F3-83B1B99C9A99</referredTableID>
+<keyObject>81331973-113B-2B67-0BEF-AEB110C5A14A</keyObject>
+<referredKeyID>81331973-113B-2B67-0BEF-AEB110C5A14A</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>JC_Courier_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

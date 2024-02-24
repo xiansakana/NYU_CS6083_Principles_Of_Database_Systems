@@ -1,0 +1,28 @@
+{% extends "base_template.html" %}
+
+{% block title %}Home - Car Rental{% endblock %}
+
+{% block content %}
+   <div class="container mx-auto px-6">
+    <h1 class="text-4xl font-bold mb-8 text-center">
+     About Us
+    </h1>
+    <div class="flex flex-wrap justify-center items-center text-center">
+     <div class="w-full lg:w-1/2 px-4 mb-8">
+      <img alt="About our company" class="rounded-lg mb-4" height="400" src="{{ url_for('static', filename='images/5.jpg') }}" width="600"/>
+     </div>
+     <div class="w-full lg:w-1/2 px-4">
+      <p class="text-lg text-gray-400 mb-4">
+       WOW Car Rental has been providing high-quality luxury car rental services since 2005. With a fleet of the latest models from top car manufacturers, we offer an unparalleled driving experience to our clients.
+      </p>
+      <p class="text-lg text-gray-400 mb-4">
+       Our commitment to customer satisfaction and passion for automotive excellence have made us a leader in the car rental industry. Whether you need a vehicle for a special occasion or for everyday use, we have a wide selection to meet your needs.
+      </p>
+      <p class="text-lg text-gray-400 mb-4">
+       At WOW Car Rental, we believe in going the extra mile for our customers. Our dedicated team is always ready to assist you with any questions or concerns. Experience the difference with WOW Car Rental and drive the car of your dreams today.
+      </p>
+     </div>
+    </div>
+   </div>
+  </main>
+{% endblock %}

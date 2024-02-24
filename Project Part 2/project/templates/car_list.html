@@ -1,0 +1,110 @@
+{% extends "base_template.html" %}
+
+{% block title %}Home - Car Rental{% endblock %}
+
+{% block content %}
+   <div class="container mx-auto px-6">
+    <h1 class="text-4xl font-bold mb-8 text-center">
+     Car List
+    </h1>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+     <!-- Repeat this block for each car -->
+     <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+      <img alt="TOYOTA" class="rounded-lg mb-4" height="200" src="{{ url_for('static', filename='images/3.png') }}" width="300"/>
+      <h3 class="text-2xl font-semibold mb-2">
+        TOYOTA
+      </h3>
+      <p class="text-gray-400 mb-4">
+       Luxury sedan with high-end features.
+      </p>
+      <ul class="text-sm text-gray-400 mb-4">
+       <li>
+        - Premium interior
+       </li>
+       <li>
+        - Advanced safety features
+       </li>
+       <li>
+        - Smooth ride
+       </li>
+       <li>
+        - Top performance
+       </li>
+      </ul>
+      <div class="flex justify-between items-center">
+       <span class="text-lg font-bold text-yellow-500">
+        $50/day
+       </span>
+       <button class="bg-yellow-500 text-black px-4 py-2 rounded hover:bg-yellow-600 transition-colors duration-300">
+        View Details
+       </button>
+      </div>
+     </div>
+     <!-- Additional car blocks -->
+     <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+      <img alt="NISSAN" class="rounded-lg mb-4" height="200" src="{{ url_for('static', filename='images/2.png') }}" width="300"/>
+      <h3 class="text-2xl font-semibold mb-2">
+        NISSAN
+      </h3>
+      <p class="text-gray-400 mb-4">
+       Experience the thrill of driving with the NISSAN.
+      </p>
+      <ul class="text-sm text-gray-400 mb-4">
+       <li>
+        - Sporty design
+       </li>
+       <li>
+        - High performance
+       </li>
+       <li>
+        - Advanced technology
+       </li>
+       <li>
+        - Luxurious interior
+       </li>
+      </ul>
+      <div class="flex justify-between items-center">
+       <span class="text-lg font-bold text-yellow-500">
+        $55/day
+       </span>
+       <button class="bg-yellow-500 text-black px-4 py-2 rounded hover:bg-yellow-600 transition-colors duration-300">
+        View Details
+       </button>
+      </div>
+     </div>
+     <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+      <img alt="HONDA" class="rounded-lg mb-4" height="200" src="{{ url_for('static', filename='images/4.png') }}" width="300"/>
+      <h3 class="text-2xl font-semibold mb-2">
+       HONDA
+      </h3>
+      <p class="text-gray-400 mb-4">
+       Futuristic and efficient, the HONDA is an icon of progress.
+      </p>
+      <ul class="text-sm text-gray-400 mb-4">
+       <li>
+        - Hybrid technology
+       </li>
+       <li>
+        - Exceptional fuel economy
+       </li>
+       <li>
+        - Cutting-edge features
+       </li>
+       <li>
+        - Sporty performance
+       </li>
+      </ul>
+      <div class="flex justify-between items-center">
+       <span class="text-lg font-bold text-yellow-500">
+        $60/day
+       </span>
+       <button class="bg-yellow-500 text-black px-4 py-2 rounded hover:bg-yellow-600 transition-colors duration-300">
+        View Details
+       </button>
+      </div>
+     </div>
+     <!-- ... other car blocks ... -->
+    </div>
+   </div>
+  </main>
+{% endblock %}

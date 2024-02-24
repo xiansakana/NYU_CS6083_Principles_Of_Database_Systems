@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7B8D7780-95CC-9AE9-F163-856D0656D573" name="JC_CARD_TYPE">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<generatorID>03DD719F-1699-F386-EFD6-9A155049525F</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CARD_TYPE_ID" id="C760D2EC-DFC2-E96F-D51D-165A945173F6">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<comment><![CDATA[CARD TYPE ID]]></comment>
+<commentInRDBMS><![CDATA[CARD TYPE ID]]></commentInRDBMS>
+<generatorID>7E6E1B58-B623-547D-E900-DA6C76C62689</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TYPE_NAME" id="DA45E610-937C-0A0C-0D9C-74BB6AD35E91">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<comment><![CDATA[card type name]]></comment>
+<commentInRDBMS><![CDATA[card type name]]></commentInRDBMS>
+<generatorID>15811135-0F8D-3BB2-BA0F-C0A93D79508B</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F1FC78E0-27ED-ADFB-C2CC-7365915815B5" name="JC_CARD_TYPE_PK">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<generatorID>4A9C4E83-5FB6-6EBD-43CB-51C302365D94</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C760D2EC-DFC2-E96F-D51D-165A945173F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

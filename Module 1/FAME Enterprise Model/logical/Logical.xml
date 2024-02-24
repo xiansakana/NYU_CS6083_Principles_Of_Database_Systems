@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="4793E3C9-F299-ED62-F010-C4CE4802A68C" mainViewID="30CEFEB6-63FC-866C-54F7-3019A2CC76CA">
+<createdBy>cj</createdBy>
+<createdTime>2023-09-28 01:26:47 UTC</createdTime>
+<ownerDesignName>FAME Enterprise Model</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

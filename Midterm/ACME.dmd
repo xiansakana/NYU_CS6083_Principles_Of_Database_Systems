@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ACME" id="0EF13D43-48C4-C310-32C7-FB50A7EA70CA" version="3.5">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 15:37:31 UTC</createdTime>
+<ownerDesignName>ACME</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>0EF13D43-48C4-C310-32C7-FB50A7EA70CA</designId>
+</OSDM_Design>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2A69905C-3A6F-D921-2C95-D14EC123D780" containerWithKeyObject="DFF0B1EB-61C1-6CE8-CE25-9A0F8B44C4CB" localFKIndex="EA6546F6-2549-717F-4B6D-4AB3C3C5CA36" name="JC_SERVICE_JC_DISCOUNT_FK">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<generatorID>7D2F7D15-AC01-00C7-9DC4-3C5DD04516E7</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<referredTableLongName>JC_DISCOUNT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5AE2F2D1-95C0-7B0F-DD3D-423194B340BA</referredTableID>
+<keyObject>E3EBDE8B-BBFF-BA40-42A3-988D51189A08</keyObject>
+<referredKeyID>E3EBDE8B-BBFF-BA40-42A3-988D51189A08</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>DISCOUNT_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

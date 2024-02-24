@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="managesv1" directorySegmentName="seg_0" id="824D0905-7836-70E4-6607-E53D726AFF29">
+<createdBy>cj</createdBy>
+<createdTime>2023-09-28 02:05:39 UTC</createdTime>
+<ownerDesignName>FAME Enterprise Model</ownerDesignName>
+<engineerTo>
+<item key="5C9E289B-A4E9-3A61-52E9-1E243C9D80F7" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>025BD713-711A-EDE5-3CAC-5BC9D9D5641B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3FE78102-6534-269B-7822-4E0F177C9F20</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F4C78465-074C-F021-FC8E-765585ED03D5" name="JC_PROJECT">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-05 19:49:55 UTC</createdTime>
+<generatorID>5F4421DD-A023-069A-284A-EB1C918C02CB</generatorID>
+<ownerDesignName>Practice</ownerDesignName>
+<ordsAlias>project</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PROJNO" id="33E43A3C-D31D-B0DE-0E2E-4B3B013F7C9A">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-05 19:49:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[Project Number]]></commentInRDBMS>
+<generatorID>7199A725-BDC5-0B41-DCF2-22FAE196BDB7</generatorID>
+<ownerDesignName>Practice</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PNAME" id="BA7480D5-E8EA-21A7-5F43-856AB9715673">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-05 19:49:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[Name of the Project]]></commentInRDBMS>
+<generatorID>7A626D94-70C3-DDDE-2F0E-F3C49F07CC18</generatorID>
+<ownerDesignName>Practice</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STARTDATE" id="0FF7F621-FDBF-3F55-05E8-BD53726DA42C">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-05 19:49:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[Start Date of the Project]]></commentInRDBMS>
+<generatorID>5879429D-3B59-1CCD-9C46-0A73562F3021</generatorID>
+<ownerDesignName>Practice</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENDDATE" id="71421D6A-BB9F-B90C-CBA3-F637612BB490">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-05 19:49:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[End Date of the Project]]></commentInRDBMS>
+<generatorID>EC335BB9-F747-2515-BB2D-0CC151AB1D11</generatorID>
+<ownerDesignName>Practice</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="487F3C86-DFE2-B8C8-2E07-336E83C28F29" name="PROJECT_PK">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-05 19:49:55 UTC</createdTime>
+<ownerDesignName>Practice</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="33E43A3C-D31D-B0DE-0E2E-4B3B013F7C9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

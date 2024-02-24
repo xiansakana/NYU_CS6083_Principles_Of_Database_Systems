@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="UEAT" id="B36AD312-7EFF-26EE-4C77-BCA1022E4E57" version="3.5">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:06 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>B36AD312-7EFF-26EE-4C77-BCA1022E4E57</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="A49A3C41-43CA-52C4-FEA6-1D6AE9E9972B">
+<designStoragePath>D:\UEAT</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

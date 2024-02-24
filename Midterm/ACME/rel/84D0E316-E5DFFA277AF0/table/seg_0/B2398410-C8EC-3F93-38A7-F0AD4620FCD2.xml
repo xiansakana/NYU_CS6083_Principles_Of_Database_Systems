@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B2398410-C8EC-3F93-38A7-F0AD4620FCD2" name="JC_ORDER">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:19:40 UTC</createdTime>
+<generatorID>53F1D127-5C12-FFA6-23F8-9C99D37405D6</generatorID>
+<ownerDesignName>ACME</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ORDER_ID" id="6D3CAD11-43B3-EA34-324F-94CA046AFBF3">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:19:40 UTC</createdTime>
+<generatorID>E8FFFE40-C6AC-3F83-CC4F-080FA46F7E0A</generatorID>
+<ownerDesignName>ACME</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDER_DATE" id="1578D064-CEFD-CF9D-98BE-2EF3F616B2B6">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:19:40 UTC</createdTime>
+<generatorID>52EBEAA8-1045-4E9A-0F08-C0733E80D925</generatorID>
+<ownerDesignName>ACME</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_ID" id="C045950C-A1E0-7E0A-69E8-8AFF33C2A188">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:19:40 UTC</createdTime>
+<generatorID>335A835D-4E04-1899-D3B7-66E2C23114FF</generatorID>
+<ownerDesignName>ACME</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2C017A20-3D32-E899-5ADB-CFF0F6BB2A3E" referredColumn="14B59EDC-DA21-ED00-1D9D-D23D4FBB8FE1"/>
+</associations>
+</Column>
+<Column name="ADDR_ID" id="1AE41FE9-269E-9841-80F0-5E00F57572B5">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:19:40 UTC</createdTime>
+<generatorID>4AE2BC3A-2D66-E8FC-EE38-A03A7BDEB0E4</generatorID>
+<ownerDesignName>ACME</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3DF35742-A49B-4152-2E15-C1912DDC4071" referredColumn="9EE4C848-E792-047B-D4EC-D4117249120F"/>
+</associations>
+</Column>
+<Column name="JC_ORDER_ID" id="8F0320A5-79D8-3A6D-F1F7-B7819E8A5FE0">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:19:40 UTC</createdTime>
+<ownerDesignName>ACME</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F108BFE3-83AA-B027-13A3-643522F08915" name="JC_ORDER_PK">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:19:40 UTC</createdTime>
+<ownerDesignName>ACME</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="8F0320A5-79D8-3A6D-F1F7-B7819E8A5FE0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B28B4F8F-0D2D-1A1B-C3D8-96B1B118AD1D" name="JC_ORDER__IDX">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:19:40 UTC</createdTime>
+<ownerDesignName>ACME</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>9EE1B3B7-2E8F-5AD6-AA19-0026991AF92D</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="1AE41FE9-269E-9841-80F0-5E00F57572B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AE0366C8-41CF-C723-E3B7-6C7687D442FA" name="JC_ORDER_JC_CUST_FK">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:19:40 UTC</createdTime>
+<generatorID>5BDFFC18-B725-7010-2F07-66BCC826453F</generatorID>
+<ownerDesignName>ACME</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C045950C-A1E0-7E0A-69E8-8AFF33C2A188"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1062148C-61D0-B124-DFE7-E63CE7429AB1" name="JC_ORDER_JC_ADDR_FK">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:19:40 UTC</createdTime>
+<generatorID>9EE1B3B7-2E8F-5AD6-AA19-0026991AF92D</generatorID>
+<ownerDesignName>ACME</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AE41FE9-269E-9841-80F0-5E00F57572B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

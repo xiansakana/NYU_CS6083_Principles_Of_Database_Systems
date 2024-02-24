@@ -1,0 +1,208 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DFF0B1EB-61C1-6CE8-CE25-9A0F8B44C4CB" name="JC_SERVICE">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<generatorID>1C63DC69-67EE-82F4-0AB5-E3E37BAE1A0C</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SERVICE_ID" id="FC2B6BF0-0B6A-7C00-B003-EBE99E0AEF77">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<comment><![CDATA[rent service id]]></comment>
+<commentInRDBMS><![CDATA[rent service id]]></commentInRDBMS>
+<generatorID>CF7FA584-08FA-BB85-CF05-28782E2BF9AD</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAYS_NO" id="92D69472-E69C-AAA3-0845-E731068BF7D6">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<comment><![CDATA[rent service days number]]></comment>
+<commentInRDBMS><![CDATA[rent service days number]]></commentInRDBMS>
+<generatorID>32774BEE-3E78-5555-32D6-DB5E85D09529</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="START_ODO" id="E269A442-188B-6E99-A3F5-118FC5212AC8">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<comment><![CDATA[rent service start odometer]]></comment>
+<commentInRDBMS><![CDATA[rent service start odometer]]></commentInRDBMS>
+<generatorID>71CFA4F8-9E06-D48A-E9BE-571F6337F909</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="END_ODO" id="58576762-1D18-32B7-0B7D-7CC7662EED22">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<comment><![CDATA[rent service end odometer]]></comment>
+<commentInRDBMS><![CDATA[rent service end odometer]]></commentInRDBMS>
+<generatorID>7D94F660-B5D4-0F56-D40E-124E3708D773</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PICKUP_LOC" id="2E6FDF2D-92F0-212A-698C-5177EFDA7B0C">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<comment><![CDATA[pickup location]]></comment>
+<commentInRDBMS><![CDATA[pickup location]]></commentInRDBMS>
+<generatorID>65CE7F92-37C6-270D-DE65-2671E0724479</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="68A02E1B-FB29-4332-8842-BF03D9259EF8" referredColumn="775B9166-A363-CEF8-4F2F-B740F9B11A0F"/>
+</associations>
+</Column>
+<Column name="DROPOFF_LOC" id="472D8889-D979-741B-8087-029E49BBEDAC">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<comment><![CDATA[dropoff location]]></comment>
+<commentInRDBMS><![CDATA[dropoff location]]></commentInRDBMS>
+<generatorID>FF6063D9-1CE3-5156-A6C4-264B344C2B80</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2E63EE01-6141-A2D3-B308-130609B0B188" referredColumn="775B9166-A363-CEF8-4F2F-B740F9B11A0F"/>
+</associations>
+</Column>
+<Column name="DISCOUNT_ID" id="04C75BBA-7A79-5D18-3A2A-D177C32335E3">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<comment><![CDATA[discount id]]></comment>
+<commentInRDBMS><![CDATA[discount id]]></commentInRDBMS>
+<generatorID>BBF05858-1954-EDC7-583E-AD5090AC8896</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2A69905C-3A6F-D921-2C95-D14EC123D780" referredColumn="0490BF0A-21E7-C75A-53C7-A24EDB88DA07"/>
+</associations>
+</Column>
+<Column name="CUST_ID" id="1ED75C1B-7779-7E01-1234-9B60A95EE06D">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<comment><![CDATA[customer id]]></comment>
+<generatorID>089D990B-913F-AB78-5558-D7A98699AB85</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="17D278CF-30CF-C71F-19D1-60AC00A6F0BC" referredColumn="86B8F3EB-FFE2-12FD-1229-69D46EAF166E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="27DDF48C-CDAF-434B-D2ED-81321275F70D" name="JC_SERVICE_PK">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<generatorID>73E179C0-3BA7-DE17-3FFC-BE84B4079D27</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC2B6BF0-0B6A-7C00-B003-EBE99E0AEF77"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D54F52F3-D3BB-15C8-1196-CB55B4316026" name="JC_SERVICE__IDX">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<ownerDesignName>WOW</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>7D2F7D15-AC01-00C7-9DC4-3C5DD04516E7</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="04C75BBA-7A79-5D18-3A2A-D177C32335E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CBBF1455-25E8-C450-3737-29680727BAF8" name="JC_SERVICE_JC_CUSTOMER_FK">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<generatorID>8B7A31A7-E05A-7158-5937-26435266D27C</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1ED75C1B-7779-7E01-1234-9B60A95EE06D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E5FE6C41-8648-03AF-F989-436F625C0B2C" name="JC_SERVICE_JC_LOC_FK">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<generatorID>A44552CD-0664-31D1-A967-F1791927D9F5</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E6FDF2D-92F0-212A-698C-5177EFDA7B0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A222A95F-5F8F-97B9-BD19-B34A7BC83FDD" name="JC_SERVICE_JC_LOC_FKv2">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<generatorID>2530F2D5-1422-CFFE-6695-9739C7045122</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="472D8889-D979-741B-8087-029E49BBEDAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA6546F6-2549-717F-4B6D-4AB3C3C5CA36" name="JC_SERVICE_JC_DISCOUNT_FK">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<generatorID>7D2F7D15-AC01-00C7-9DC4-3C5DD04516E7</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04C75BBA-7A79-5D18-3A2A-D177C32335E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login - Car Rental</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+        }
+        #adminPage {
+            display: none;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+    <!-- Admin Login Form -->
+    <div class="flex items-center justify-center h-screen" id="loginForm">
+        <div class="w-full max-w-xs">
+            <form class="bg-gray-800 shadow-md rounded px-8 pt-6 pb-8 mb-4" action="/ad_login" method="post">
+                <div class="mb-4">
+                    <label class="block text-gray-300 text-sm font-bold mb-2" for="username">
+                        Username
+                    </label>
+                    <input name="username" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Username">
+                </div>
+                <div class="mb-6">
+                    <label class="block text-gray-300 text-sm font-bold mb-2" for="password">
+                        Password
+                    </label>
+                    <input name="password" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="password" type="password" placeholder="******************">
+                </div>
+                <div class="flex items-center justify-between">
+                    <button class="bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
+                        Sign In
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- Admin Page Content -->
+    <div id="adminPage">
+        <!-- Header, Main Content, and Footer as before -->
+    </div>
+
+    <script>
+        function login() {
+            // Simulate an admin login
+            var username = document.getElementById('username').value;
+            var password = document.getElementById('password').value;
+            
+            // In a real application, you would send these credentials to the server for verification
+            // For this example, we'll just check if the username and password fields are not empty
+            if(username !== "" && password !== "") {
+                // "Login" successful, hide the login form and show the admin page
+                document.getElementById('loginForm').style.display = 'none';
+                document.getElementById('adminPage').style.display = 'block';
+            } else {
+                alert('Please enter username and password.');
+            }
+        }
+    </script>
+</body>
+</html>

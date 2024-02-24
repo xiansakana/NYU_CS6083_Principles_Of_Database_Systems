@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AA4E4E59-6995-4AC6-17E8-69C77DE5990C" name="JC_ORDER">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 18:31:50 UTC</createdTime>
+<ownerDesignName>FEEL</ownerDesignName>
+<engineerTo>
+<item key="FC1E8A73-4B35-D5A2-1097-7599D3DC918D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ORDER_ID" id="1B9E9553-2F77-1832-1AC1-B009D0D657BF">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 18:31:56 UTC</createdTime>
+<ownerDesignName>FEEL</ownerDesignName>
+<engineerTo>
+<item key="FC1E8A73-4B35-D5A2-1097-7599D3DC918D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ORDER_DATE" id="572D4ADE-A3D2-0CCF-8575-9DE2EA48D614">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 18:32:18 UTC</createdTime>
+<ownerDesignName>FEEL</ownerDesignName>
+<engineerTo>
+<item key="FC1E8A73-4B35-D5A2-1097-7599D3DC918D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CUST_ID" id="D1BFEBAA-69E9-3309-99C6-995F2D718132">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 18:42:58 UTC</createdTime>
+<generatorID>D14320C0-82B5-E0E8-5772-F0EB31C502F5</generatorID>
+<ownerDesignName>FEEL</ownerDesignName>
+<engineerTo>
+<item key="FC1E8A73-4B35-D5A2-1097-7599D3DC918D" value="true"/>
+</engineerTo>
+<referedAttribute>E55CA8FE-C482-CA1F-1E68-3CB6AB7399E7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INVOICE_ID" id="1FD7CE3C-E078-69DA-91F5-A33A508F9263">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 19:07:07 UTC</createdTime>
+<generatorID>551BD70B-BB3F-925D-90F3-20130F26910B</generatorID>
+<ownerDesignName>FEEL</ownerDesignName>
+<engineerTo>
+<item key="FC1E8A73-4B35-D5A2-1097-7599D3DC918D" value="true"/>
+</engineerTo>
+<referedAttribute>536C653B-A225-3BA2-E4B0-01A581951C26</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="695027A7-7711-0E6B-811E-3E7118E70624" name="JC_ORDER PK">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 19:01:01 UTC</createdTime>
+<ownerDesignName>FEEL</ownerDesignName>
+<engineerTo>
+<item key="FC1E8A73-4B35-D5A2-1097-7599D3DC918D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1B9E9553-2F77-1832-1AC1-B009D0D657BF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

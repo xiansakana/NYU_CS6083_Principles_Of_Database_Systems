@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6F13F490-EB13-EACA-B529-7B09800D0ED9" name="JC_ADDR">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:01:44 UTC</createdTime>
+<ownerDesignName>ACME</ownerDesignName>
+<engineerTo>
+<item key="84D0E316-63C3-DF5D-888B-E5DFFA277AF0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ADDR_ID" id="0D51C114-AEAA-B4A0-7E3B-E1AEA332A9CE">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:01:51 UTC</createdTime>
+<ownerDesignName>ACME</ownerDesignName>
+<engineerTo>
+<item key="84D0E316-63C3-DF5D-888B-E5DFFA277AF0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BILL_STR" id="08682A50-C633-FDB6-4A48-2B530A18AC13">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:02:03 UTC</createdTime>
+<ownerDesignName>ACME</ownerDesignName>
+<engineerTo>
+<item key="84D0E316-63C3-DF5D-888B-E5DFFA277AF0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BILL_CITY" id="37B947A8-609B-DCEC-8E28-C54A7F6893CC">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:02:30 UTC</createdTime>
+<ownerDesignName>ACME</ownerDesignName>
+<engineerTo>
+<item key="84D0E316-63C3-DF5D-888B-E5DFFA277AF0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BILL_STATE" id="46FE7D8B-26E7-043C-6927-60DC8D4D64D1">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:02:41 UTC</createdTime>
+<ownerDesignName>ACME</ownerDesignName>
+<engineerTo>
+<item key="84D0E316-63C3-DF5D-888B-E5DFFA277AF0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BILL_ZIPCODE" id="45979CC3-BB18-F971-E3B5-16549E2E36BE">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:12:00 UTC</createdTime>
+<ownerDesignName>ACME</ownerDesignName>
+<engineerTo>
+<item key="84D0E316-63C3-DF5D-888B-E5DFFA277AF0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SHIP_STR" id="6B70DD67-1918-BC15-5646-A9C1731CE4D4">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:02:51 UTC</createdTime>
+<ownerDesignName>ACME</ownerDesignName>
+<engineerTo>
+<item key="84D0E316-63C3-DF5D-888B-E5DFFA277AF0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SHIP_CITY" id="2A4FD639-1B44-BF65-FF21-3876DA9B5797">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:03:02 UTC</createdTime>
+<ownerDesignName>ACME</ownerDesignName>
+<engineerTo>
+<item key="84D0E316-63C3-DF5D-888B-E5DFFA277AF0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SHIP_STATE" id="D0F565B7-4A90-CB93-8E80-8155906A00A6">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:03:14 UTC</createdTime>
+<ownerDesignName>ACME</ownerDesignName>
+<engineerTo>
+<item key="84D0E316-63C3-DF5D-888B-E5DFFA277AF0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SHIP_ZIPCODE" id="B56E6483-9487-50BA-5BDF-B5ACFFB4297C">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:11:59 UTC</createdTime>
+<ownerDesignName>ACME</ownerDesignName>
+<engineerTo>
+<item key="84D0E316-63C3-DF5D-888B-E5DFFA277AF0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="83D62FA8-7A3A-E283-534B-22A7F47A997F" name="JC_ADDR PK">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:02:02 UTC</createdTime>
+<ownerDesignName>ACME</ownerDesignName>
+<engineerTo>
+<item key="84D0E316-63C3-DF5D-888B-E5DFFA277AF0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0D51C114-AEAA-B4A0-7E3B-E1AEA332A9CE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

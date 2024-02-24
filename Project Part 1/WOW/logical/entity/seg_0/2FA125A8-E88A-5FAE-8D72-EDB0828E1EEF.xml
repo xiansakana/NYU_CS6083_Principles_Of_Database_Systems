@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2FA125A8-E88A-5FAE-8D72-EDB0828E1EEF" name="JC_PAYMENT">
+<createdBy>cj</createdBy>
+<createdTime>2023-11-09 19:21:19 UTC</createdTime>
+<ownerDesignName>WOW</ownerDesignName>
+<engineerTo>
+<item key="08090BE4-B1A1-F67B-C30F-A2BF83219429" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PAYMENT_ID" id="ADEB3E87-B213-AC41-AEFC-E5A9F96C8AED">
+<createdBy>cj</createdBy>
+<createdTime>2023-11-09 19:21:25 UTC</createdTime>
+<comment><![CDATA[PAYMENT ID]]></comment>
+<commentInRDBMS><![CDATA[PAYMENT ID]]></commentInRDBMS>
+<ownerDesignName>WOW</ownerDesignName>
+<engineerTo>
+<item key="08090BE4-B1A1-F67B-C30F-A2BF83219429" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PAYMENT_DATE" id="E1AF45BC-80ED-C678-1463-48F17B358559">
+<createdBy>cj</createdBy>
+<createdTime>2023-11-09 19:27:18 UTC</createdTime>
+<comment><![CDATA[PAYMENT DATE]]></comment>
+<commentInRDBMS><![CDATA[PAYMENT DATE]]></commentInRDBMS>
+<ownerDesignName>WOW</ownerDesignName>
+<engineerTo>
+<item key="08090BE4-B1A1-F67B-C30F-A2BF83219429" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CARD_NO" id="F1A75716-4A59-6F8B-51BA-778A8947AA9B">
+<createdBy>cj</createdBy>
+<createdTime>2023-11-09 19:28:01 UTC</createdTime>
+<comment><![CDATA[card number]]></comment>
+<commentInRDBMS><![CDATA[card number]]></commentInRDBMS>
+<ownerDesignName>WOW</ownerDesignName>
+<engineerTo>
+<item key="08090BE4-B1A1-F67B-C30F-A2BF83219429" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>16</dataTypePrecision>
+<ownDataTypeParameters>,16,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INVOICE_ID" id="6BF6E4BC-34D1-5190-89A0-9BD604FEDEA7">
+<createdBy>cj</createdBy>
+<createdTime>2023-11-09 20:55:04 UTC</createdTime>
+<comment><![CDATA[invoice id]]></comment>
+<commentInRDBMS><![CDATA[invoice id]]></commentInRDBMS>
+<generatorID>93F9E63C-8AB6-25BD-1545-00D07E406CC5</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<engineerTo>
+<item key="08090BE4-B1A1-F67B-C30F-A2BF83219429" value="true"/>
+</engineerTo>
+<referedAttribute>426FC88B-DED1-6F78-22A3-481911865E8E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CVV" id="1BAA1E67-474F-E546-4CBE-D61A2580499B">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-06 22:57:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[CVV]]></commentInRDBMS>
+<ownerDesignName>WOW</ownerDesignName>
+<engineerTo>
+<item key="08090BE4-B1A1-F67B-C30F-A2BF83219429" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CARD_TYPE_ID" id="9FCA7496-F86D-5EAD-EB34-B7C6CFA40C11">
+<createdBy>cj</createdBy>
+<createdTime>2023-11-09 20:55:11 UTC</createdTime>
+<comment><![CDATA[card type id]]></comment>
+<commentInRDBMS><![CDATA[card type id]]></commentInRDBMS>
+<generatorID>19C8C145-7E43-70F8-6A87-F03BF7F9A422</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<engineerTo>
+<item key="08090BE4-B1A1-F67B-C30F-A2BF83219429" value="true"/>
+</engineerTo>
+<referedAttribute>7E6E1B58-B623-547D-E900-DA6C76C62689</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7FC45F5D-5947-D30E-660D-D83E5C1D376B" name="PAYMENT PK">
+<createdBy>cj</createdBy>
+<createdTime>2023-11-09 19:27:38 UTC</createdTime>
+<ownerDesignName>WOW</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="08090BE4-B1A1-F67B-C30F-A2BF83219429" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ADEB3E87-B213-AC41-AEFC-E5A9F96C8AED</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,57 @@
+{% extends "base_template.html" %}
+
+{% block title %}Home - Car Rental{% endblock %}
+
+{% block content %}
+        <div class="container mx-auto px-6">
+            <h1 class="text-4xl font-bold mb-8 text-center">Contact Us</h1>
+            <div class="flex flex-wrap justify-center items-center text-center">
+                <div class="w-full lg:w-2/3 px-4 mb-8">
+                    <p class="text-lg text-gray-400 mb-4">
+                        If you have any questions or need further information, please feel free to contact us.
+                    </p>
+                    <div class="mb-4">
+                        <i class="fas fa-envelope text-yellow-500 mr-2"></i>
+                        <a href="mailto:support@wowcarrental.com" class="text-yellow-500 hover:text-yellow-400">support@wowcarrental.com</a>
+                    </div>
+                    <div class="mb-4">
+                        <i class="fas fa-phone-alt text-yellow-500 mr-2"></i>
+                        <span class="text-yellow-500">1-800-RENT-CAR</span>
+                    </div>
+                    <div class="mb-4">
+                        <i class="fas fa-map-marker-alt text-yellow-500 mr-2"></i>
+                        <span class="text-yellow-500">123 Car Rental Blvd, Motor City, USA</span>
+                    </div>
+                    <!-- Contact Form -->
+                    <form class="w-full max-w-lg mx-auto mt-8">
+                        <div class="flex flex-wrap -mx-3 mb-6">
+                            <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                                <input class="appearance-none block w-full bg-gray-800 text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-gray-700" id="first-name" type="text" placeholder="First Name">
+                            </div>
+                            <div class="w-full md:w-1/2 px-3">
+                                <input class="appearance-none block w-full bg-gray-800 text-white border rounded py-3 px-4 leading-tight focus:outline-none focus:bg-gray-700" id="last-name" type="text" placeholder="Last Name">
+                            </div>
+                        </div>
+                        <div class="flex flex-wrap -mx-3 mb-6">
+                            <div class="w-full px-3">
+                                <input class="appearance-none block w-full bg-gray-800 text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-gray-700" id="email" type="email" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="flex flex-wrap -mx-3 mb-6">
+                            <div class="w-full px-3">
+                                <textarea class="appearance-none block w-full bg-gray-800 text-white border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-gray-700 h-48 resize-none" id="message" placeholder="Your message..."></textarea>
+                            </div>
+                        </div>
+                        <div class="flex flex-wrap -mx-3 mb-6">
+                            <div class="w-full px-3">
+                                <button class="bg-yellow-500 text-black w-full py-3 px-4 rounded hover:bg-yellow-600 transition-colors duration-300" type="submit">
+                                    Send Message
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+{% endblock %}

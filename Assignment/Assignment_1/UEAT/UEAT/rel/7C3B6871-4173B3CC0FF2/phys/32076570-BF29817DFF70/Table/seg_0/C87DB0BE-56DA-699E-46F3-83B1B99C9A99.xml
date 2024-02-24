@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Courier" directorySegmentName="seg_0" id="C87DB0BE-56DA-699E-46F3-83B1B99C9A99">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Bank_Account_Number" id="09C5FC1C-BB31-8CF4-857F-F56B65A36D68">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Phone_Number" id="15AE2459-5B99-05D6-CAC2-63AC2479D1D2">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Home_Address" id="2296603F-34FF-4CD7-0566-D7B305EBEE79">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Age" id="230F36D0-67C8-E52F-A5A2-282A30D20748">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Vehicle_Plate_Number" id="302A4978-AC81-B362-5DBE-99678586DD33">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Gender" id="651766D4-BF93-28F7-5627-F9BC6B595EA6">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Vehicle_Type" id="69361760-066F-2753-D20E-DE3DC7DD700C">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Bank_Routing_Number" id="A0A1F7F2-0F2B-76AC-ABF9-D600C86EBB20">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Name" id="F5A0D835-52ED-1763-EE63-A856D611234C">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Courier_PK" id="81331973-113B-2B67-0BEF-AEB110C5A14A">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

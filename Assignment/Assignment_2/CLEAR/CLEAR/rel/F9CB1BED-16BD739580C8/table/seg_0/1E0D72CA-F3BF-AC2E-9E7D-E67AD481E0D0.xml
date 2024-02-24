@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1E0D72CA-F3BF-AC2E-9E7D-E67AD481E0D0" name="JC_GRAD">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 17:20:43 UTC</createdTime>
+<generatorID>08105E82-993A-3800-EF53-566975AB1F16</generatorID>
+<ownerDesignName>CLEAR</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PERSON_ID" id="A502D74F-AC59-FE56-6E6F-87B0A0294AB1">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 17:20:43 UTC</createdTime>
+<generatorID>0F66022F-4B4E-3375-9E19-4A36630F6BBE</generatorID>
+<ownerDesignName>CLEAR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C7D8661F-B47B-392E-7525-A6A39CE7D461" referredColumn="4B301E9B-92C9-4617-B2CF-BB72B89EDD44"/>
+</associations>
+</Column>
+<Column name="GRAD_MAJOR" id="59889677-3A3A-FEA5-0F74-0EBCBAF8FDB7">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 17:20:43 UTC</createdTime>
+<generatorID>57BAF333-7690-58C3-D735-C93DC3D04120</generatorID>
+<ownerDesignName>CLEAR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PER_TYPE" id="7A2EBFE6-54D4-3CFE-618E-9B36880E93AC">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 17:20:43 UTC</createdTime>
+<generatorID>2F778B87-2A5D-AC8E-CE89-25A769A45B42</generatorID>
+<ownerDesignName>CLEAR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C7D8661F-B47B-392E-7525-A6A39CE7D461" referredColumn="3F864F0D-4CAC-0C2B-E78F-991931979F54"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="181A1946-AEC1-C80E-703B-42698D137768" name="JC_GRAD_PK">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 17:20:43 UTC</createdTime>
+<generatorID>A44BA661-6D8C-B236-C661-0CFE3F25279E</generatorID>
+<ownerDesignName>CLEAR</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A502D74F-AC59-FE56-6E6F-87B0A0294AB1"/>
+<colUsage columnID="7A2EBFE6-54D4-3CFE-618E-9B36880E93AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6893F1ED-6E76-8C0F-62B0-5D23AC8C1FD5" name="JC_GRAD_JC_STUDENT_FK">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 17:20:43 UTC</createdTime>
+<generatorID>0BB25363-8172-7A88-AD1F-A0161B17D938</generatorID>
+<ownerDesignName>CLEAR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A502D74F-AC59-FE56-6E6F-87B0A0294AB1"/>
+<colUsage columnID="7A2EBFE6-54D4-3CFE-618E-9B36880E93AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

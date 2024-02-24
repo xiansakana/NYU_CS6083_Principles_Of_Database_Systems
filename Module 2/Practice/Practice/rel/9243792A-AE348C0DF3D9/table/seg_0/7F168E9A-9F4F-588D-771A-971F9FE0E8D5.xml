@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7F168E9A-9F4F-588D-771A-971F9FE0E8D5" name="JC_EMP_PROJECT">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-05 19:49:55 UTC</createdTime>
+<generatorID>3A70FE5C-8AB4-E8C1-CB82-39F31C7B76A3</generatorID>
+<ownerDesignName>Practice</ownerDesignName>
+<ordsAlias>emp_project</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="HOURS" id="D44CB2E5-F350-CE12-A3A8-19207EC4A223">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-05 19:49:55 UTC</createdTime>
+<generatorID>114DF12A-DFBE-7352-6003-DFB5905CAA50</generatorID>
+<ownerDesignName>Practice</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPNO" id="5359508B-7FD0-1692-3627-EB6EBCF6BB8B">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-05 19:49:55 UTC</createdTime>
+<ownerDesignName>Practice</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C2708AE5-4609-355A-5421-DB71A0EE2D27" referredColumn="F7A9893B-31F4-ACFB-A9F7-239318F2643D"/>
+</associations>
+</Column>
+<Column name="PROJNO" id="BAF4BE71-FA9C-6D8C-6BEF-6338EA77493D">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-05 19:54:42 UTC</createdTime>
+<ownerDesignName>Practice</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5D1F199C-363B-068C-1AEE-D74068C45223" referredColumn="33E43A3C-D31D-B0DE-0E2E-4B3B013F7C9A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A61A5393-EACA-1B89-6257-97ECBD7950DD" name="EMP_PROJECT_PK">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-05 19:58:41 UTC</createdTime>
+<ownerDesignName>Practice</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BAF4BE71-FA9C-6D8C-6BEF-6338EA77493D"/>
+<colUsage columnID="5359508B-7FD0-1692-3627-EB6EBCF6BB8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A7651E0-3A7E-54D9-E018-7FAB0E6490FD" name="EMP_PROJECT_PROJECT_FK">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-05 19:49:55 UTC</createdTime>
+<generatorID>714D8E2F-CC2D-7B76-CEA5-0A0540EF9BB8</generatorID>
+<ownerDesignName>Practice</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BAF4BE71-FA9C-6D8C-6BEF-6338EA77493D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="92F54528-4E3D-A2A7-8672-C6DD0BE8F737" name="EMP_PROJECT_EMP_FK">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-05 19:49:55 UTC</createdTime>
+<generatorID>A55D22AE-D4AA-66C6-A054-70106D4C918B</generatorID>
+<ownerDesignName>Practice</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5359508B-7FD0-1692-3627-EB6EBCF6BB8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

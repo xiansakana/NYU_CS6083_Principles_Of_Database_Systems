@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E73050C3-5E61-4429-B39D-8D8AB82D3CC4" name="JC_ORDER">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 19:07:16 UTC</createdTime>
+<generatorID>AA4E4E59-6995-4AC6-17E8-69C77DE5990C</generatorID>
+<ownerDesignName>FEEL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ORDER_ID" id="19FD78A4-AE43-E3F6-2CCB-1B3653F02401">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 19:07:16 UTC</createdTime>
+<generatorID>1B9E9553-2F77-1832-1AC1-B009D0D657BF</generatorID>
+<ownerDesignName>FEEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDER_DATE" id="EC327AD9-E05B-08C2-59F3-ADD48708BD76">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 19:07:16 UTC</createdTime>
+<generatorID>572D4ADE-A3D2-0CCF-8575-9DE2EA48D614</generatorID>
+<ownerDesignName>FEEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUST_ID" id="F7BBC0FB-80AE-CA4D-8748-A99048556F01">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 19:07:16 UTC</createdTime>
+<generatorID>D1BFEBAA-69E9-3309-99C6-995F2D718132</generatorID>
+<ownerDesignName>FEEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1FB683A1-8EC9-3403-24FD-389AA0F65450" referredColumn="740DB6BB-ACC0-6A90-D74B-708941969EB8"/>
+</associations>
+</Column>
+<Column name="INVOICE_ID" id="298678F6-8B2D-3BDC-0602-2EAF4AB6D75C">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 19:07:16 UTC</createdTime>
+<generatorID>1FD7CE3C-E078-69DA-91F5-A33A508F9263</generatorID>
+<ownerDesignName>FEEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A4B94813-A9BC-9CC9-4CA7-7D2797B6B1FC" referredColumn="5739D2FA-9CE3-633E-97AA-7DBC85CAC33B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="835579DB-7731-2348-8686-545E663DA076" name="JC_ORDER_PK">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 19:07:16 UTC</createdTime>
+<generatorID>695027A7-7711-0E6B-811E-3E7118E70624</generatorID>
+<ownerDesignName>FEEL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19FD78A4-AE43-E3F6-2CCB-1B3653F02401"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F8E9C1D-10DB-F47A-91C1-547506C3BE4A" name="JC_ORDER__IDX">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 19:07:16 UTC</createdTime>
+<ownerDesignName>FEEL</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>551BD70B-BB3F-925D-90F3-20130F26910B</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="298678F6-8B2D-3BDC-0602-2EAF4AB6D75C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3EC97A05-A7B2-AC63-4BA3-27E455B616DE" name="JC_ORDER_JC_INVOICE_FK">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 19:07:16 UTC</createdTime>
+<generatorID>551BD70B-BB3F-925D-90F3-20130F26910B</generatorID>
+<ownerDesignName>FEEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="298678F6-8B2D-3BDC-0602-2EAF4AB6D75C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9DBDCFAD-B57A-BAF3-4204-99792AADD881" name="JC_ORDER_JC_CUSTOMER_FK">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 19:07:16 UTC</createdTime>
+<generatorID>D14320C0-82B5-E0E8-5772-F0EB31C502F5</generatorID>
+<ownerDesignName>FEEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7BBC0FB-80AE-CA4D-8748-A99048556F01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

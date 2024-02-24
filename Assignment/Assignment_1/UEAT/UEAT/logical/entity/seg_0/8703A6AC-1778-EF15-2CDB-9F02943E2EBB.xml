@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8703A6AC-1778-EF15-2CDB-9F02943E2EBB" name="JC_Courier">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:42 UTC</createdTime>
+<generatorID>C87DB0BE-56DA-699E-46F3-83B1B99C9A99</generatorID>
+<ownerDesignName>UEAT</ownerDesignName>
+<engineerTo>
+<item key="7C3B6871-AB9F-D909-25EB-4173B3CC0FF2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Phone_Number" id="9C6C4A9E-E557-C902-EC08-9B914B4A1E12">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:42 UTC</createdTime>
+<generatorID>15AE2459-5B99-05D6-CAC2-63AC2479D1D2</generatorID>
+<ownerDesignName>UEAT</ownerDesignName>
+<engineerTo>
+<item key="7C3B6871-AB9F-D909-25EB-4173B3CC0FF2" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BF7D0C06-10C1-1F9E-ED49-989D77C5F9B8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="ACCB58B1-AD63-5232-18FC-D069DF6E25DC">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:42 UTC</createdTime>
+<generatorID>F5A0D835-52ED-1763-EE63-A856D611234C</generatorID>
+<ownerDesignName>UEAT</ownerDesignName>
+<engineerTo>
+<item key="7C3B6871-AB9F-D909-25EB-4173B3CC0FF2" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>496A4691-64FC-7CE5-6F83-96F7F333F8AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Age" id="099695F2-78F8-9B45-7F29-381F868DA4A6">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:42 UTC</createdTime>
+<generatorID>230F36D0-67C8-E52F-A5A2-282A30D20748</generatorID>
+<ownerDesignName>UEAT</ownerDesignName>
+<engineerTo>
+<item key="7C3B6871-AB9F-D909-25EB-4173B3CC0FF2" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D4F5ABEF-A1F3-6C4D-44B2-D7D263E1C5D9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Home_Address" id="45547F0F-86F0-77D7-A411-7D902D2E37FF">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:42 UTC</createdTime>
+<generatorID>2296603F-34FF-4CD7-0566-D7B305EBEE79</generatorID>
+<ownerDesignName>UEAT</ownerDesignName>
+<engineerTo>
+<item key="7C3B6871-AB9F-D909-25EB-4173B3CC0FF2" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6D9DC3E6-5019-37FB-A187-C60FBBA650E8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Vehicle_Type" id="C606E033-9BB2-0EC0-D3D8-74C837288280">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:42 UTC</createdTime>
+<generatorID>69361760-066F-2753-D20E-DE3DC7DD700C</generatorID>
+<ownerDesignName>UEAT</ownerDesignName>
+<engineerTo>
+<item key="7C3B6871-AB9F-D909-25EB-4173B3CC0FF2" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BF7D0C06-10C1-1F9E-ED49-989D77C5F9B8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Vehicle_Plate_Number" id="A411527C-D1C7-38E8-5541-3634DB358619">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:42 UTC</createdTime>
+<generatorID>302A4978-AC81-B362-5DBE-99678586DD33</generatorID>
+<ownerDesignName>UEAT</ownerDesignName>
+<engineerTo>
+<item key="7C3B6871-AB9F-D909-25EB-4173B3CC0FF2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BF7D0C06-10C1-1F9E-ED49-989D77C5F9B8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Gender" id="A33CE417-2311-5FC9-2F42-434E0E7B1D42">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:42 UTC</createdTime>
+<generatorID>651766D4-BF93-28F7-5627-F9BC6B595EA6</generatorID>
+<ownerDesignName>UEAT</ownerDesignName>
+<engineerTo>
+<item key="7C3B6871-AB9F-D909-25EB-4173B3CC0FF2" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>445C21FE-DF7E-3FFB-CD44-8B4CAD86ADC1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Bank_Account_Number" id="1230567A-D013-726D-9C63-402B078167AA">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:42 UTC</createdTime>
+<generatorID>09C5FC1C-BB31-8CF4-857F-F56B65A36D68</generatorID>
+<ownerDesignName>UEAT</ownerDesignName>
+<engineerTo>
+<item key="7C3B6871-AB9F-D909-25EB-4173B3CC0FF2" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BF7D0C06-10C1-1F9E-ED49-989D77C5F9B8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Bank_Routing_Number" id="550BD0AE-3D82-2F0C-0EAA-7DF7D7DDCC0C">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:42 UTC</createdTime>
+<generatorID>A0A1F7F2-0F2B-76AC-ABF9-D600C86EBB20</generatorID>
+<ownerDesignName>UEAT</ownerDesignName>
+<engineerTo>
+<item key="7C3B6871-AB9F-D909-25EB-4173B3CC0FF2" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BF7D0C06-10C1-1F9E-ED49-989D77C5F9B8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="515D58C3-223B-0477-F6E5-D5CB865A2E2D" name="Courier PK">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:42 UTC</createdTime>
+<generatorID>81331973-113B-2B67-0BEF-AEB110C5A14A</generatorID>
+<ownerDesignName>UEAT</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7C3B6871-AB9F-D909-25EB-4173B3CC0FF2" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9C6C4A9E-E557-C902-EC08-9B914B4A1E12</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

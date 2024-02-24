@@ -1,0 +1,204 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="24EDD9ED-FFB7-3999-A911-0906877C9DC3" name="JC_PERSON">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 17:20:43 UTC</createdTime>
+<generatorID>52668295-0AD1-737B-A893-F16D0DC9D45E</generatorID>
+<ownerDesignName>CLEAR</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PERSON_ID" id="62A8682B-C969-6F7A-6DCB-5EB3AC917AEE">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 17:20:43 UTC</createdTime>
+<generatorID>0F66022F-4B4E-3375-9E19-4A36630F6BBE</generatorID>
+<ownerDesignName>CLEAR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PER_FNAME" id="3BA6C800-A50E-1D95-D74B-F101725695EC">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 17:20:43 UTC</createdTime>
+<generatorID>0311EB56-88BB-2233-10D5-EDF5F9D86CA0</generatorID>
+<ownerDesignName>CLEAR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PER_LFANE" id="1558331F-54B1-869F-1E8B-050BD2CFAB15">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 17:20:43 UTC</createdTime>
+<generatorID>8E6708CB-8F22-3A75-BEF3-9E01411EE260</generatorID>
+<ownerDesignName>CLEAR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PER_STR" id="3D3FFA7D-F960-1329-19E3-3A0093F9D406">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 17:20:43 UTC</createdTime>
+<generatorID>45BA9B02-5448-3554-8A36-3EA6D4509618</generatorID>
+<ownerDesignName>CLEAR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PER_CITY" id="C58CB720-04CD-9F33-501B-77FD1D0E9B12">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 17:20:43 UTC</createdTime>
+<generatorID>A5881730-1FED-74E1-5B5A-49AC3A5A74C3</generatorID>
+<ownerDesignName>CLEAR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PER_STATE" id="A6A94D14-0233-F004-BEE6-64D9821E75CC">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 17:20:43 UTC</createdTime>
+<generatorID>4A22AA3B-BDD7-6748-43F4-D72D7FD03C2B</generatorID>
+<ownerDesignName>CLEAR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PER_COUNTRY" id="415E9F1F-51FE-C84D-2B86-4170243A02C6">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 17:20:43 UTC</createdTime>
+<generatorID>FA6E7690-5ECA-F8DF-FA8E-2EFDDF65811A</generatorID>
+<ownerDesignName>CLEAR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PER_ZIPCODE" id="19544350-D110-6305-23AC-98C0495CC874">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 17:20:43 UTC</createdTime>
+<generatorID>440B84DF-1385-B105-5E06-F63B291A433E</generatorID>
+<ownerDesignName>CLEAR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PER_GENDER" id="1C1B7BD2-4169-4C5B-8627-8ECC90CE8D75">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 17:20:43 UTC</createdTime>
+<generatorID>12572E91-885A-238B-ECFE-43434427EC74</generatorID>
+<ownerDesignName>CLEAR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PER_DOB" id="B5E75CD2-7ED7-6FB3-001B-EAF2EC91FC98">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 17:20:43 UTC</createdTime>
+<generatorID>7ED9F475-9E50-DF63-01A9-3F71A5327987</generatorID>
+<ownerDesignName>CLEAR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PER_EMAIL" id="2B84796F-326F-945B-4DF1-852CC472EDD6">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 17:20:43 UTC</createdTime>
+<generatorID>26A15790-F338-1AD0-660F-068117EA330B</generatorID>
+<ownerDesignName>CLEAR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PER_CONTACT_NO" id="508C22AB-9BF7-B02A-38B0-2D94B68A903A">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 17:20:43 UTC</createdTime>
+<generatorID>1B5A4681-C3CE-B6D6-874E-95464F5FBF58</generatorID>
+<ownerDesignName>CLEAR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PER_SSN" id="35D81802-FB50-B6D8-1ADC-86FD436C458A">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 17:20:43 UTC</createdTime>
+<generatorID>C6B7EB81-F4D2-E791-677B-90CACC74C7BC</generatorID>
+<ownerDesignName>CLEAR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PER_TYPE" id="A50A2BA4-7131-3D7E-7EF0-BA1FB1B1055F">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 17:20:43 UTC</createdTime>
+<generatorID>2F778B87-2A5D-AC8E-CE89-25A769A45B42</generatorID>
+<ownerDesignName>CLEAR</ownerDesignName>
+<constraintName>CH_INH_JC_PERSON</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="A" description="entity JC_ALUMNUS"/>
+<valueDef value="F" description="entity JC_FACULTY"/>
+<valueDef value="G" description="entity JC_GRAD"/>
+<valueDef value="S" description="entity JC_STAFF"/>
+<valueDef value="U" description="entity JC_UNDERGRAD"/>
+</listOfValues>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="27059FB5-4DB3-797E-839F-09EED9981CC8" name="JC_PERSON_PK">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 17:20:43 UTC</createdTime>
+<generatorID>A44BA661-6D8C-B236-C661-0CFE3F25279E</generatorID>
+<ownerDesignName>CLEAR</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62A8682B-C969-6F7A-6DCB-5EB3AC917AEE"/>
+<colUsage columnID="A50A2BA4-7131-3D7E-7EF0-BA1FB1B1055F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="03DD719F-1699-F386-EFD6-9A155049525F" name="JC_CARD_TYPE">
+<createdBy>cj</createdBy>
+<createdTime>2023-11-09 20:10:54 UTC</createdTime>
+<ownerDesignName>WOW</ownerDesignName>
+<engineerTo>
+<item key="08090BE4-B1A1-F67B-C30F-A2BF83219429" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CARD_TYPE_ID" id="7E6E1B58-B623-547D-E900-DA6C76C62689">
+<createdBy>cj</createdBy>
+<createdTime>2023-11-09 20:20:38 UTC</createdTime>
+<comment><![CDATA[CARD TYPE ID]]></comment>
+<commentInRDBMS><![CDATA[CARD TYPE ID]]></commentInRDBMS>
+<ownerDesignName>WOW</ownerDesignName>
+<engineerTo>
+<item key="08090BE4-B1A1-F67B-C30F-A2BF83219429" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TYPE_NAME" id="15811135-0F8D-3BB2-BA0F-C0A93D79508B">
+<createdBy>cj</createdBy>
+<createdTime>2023-11-09 20:21:12 UTC</createdTime>
+<comment><![CDATA[card type name]]></comment>
+<commentInRDBMS><![CDATA[card type name]]></commentInRDBMS>
+<ownerDesignName>WOW</ownerDesignName>
+<engineerTo>
+<item key="08090BE4-B1A1-F67B-C30F-A2BF83219429" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4A9C4E83-5FB6-6EBD-43CB-51C302365D94" name="JC_CARD_TYPE PK">
+<createdBy>cj</createdBy>
+<createdTime>2023-11-09 20:21:12 UTC</createdTime>
+<ownerDesignName>WOW</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="08090BE4-B1A1-F67B-C30F-A2BF83219429" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7E6E1B58-B623-547D-E900-DA6C76C62689</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

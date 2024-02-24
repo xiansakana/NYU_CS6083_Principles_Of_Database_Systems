@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="608701FD-EAC4-C3F9-5828-A1D1F9D5AAE2" name="DISCOUNT_INDI">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<generatorID>B35290D9-928B-C6BF-781E-E190A08A3405</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DISCOUNT_ID" id="225D96F5-7D91-8631-5864-455E6CC380EC">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<comment><![CDATA[discount id]]></comment>
+<commentInRDBMS><![CDATA[discount id]]></commentInRDBMS>
+<generatorID>240B3FC1-E799-1DE0-889E-B386EE9E3791</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="594AA024-6D90-5B21-8922-499B686F17A6" referredColumn="0490BF0A-21E7-C75A-53C7-A24EDB88DA07"/>
+</associations>
+</Column>
+<Column name="DISC_PERC" id="12406605-EE30-6AD5-DE36-1C03B303E9B0">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<comment><![CDATA[percentage of discount offered for individual]]></comment>
+<commentInRDBMS><![CDATA[percentage of discount offered for individual]]></commentInRDBMS>
+<generatorID>EDBB0962-8BCB-1AC0-548C-FA9459A7040F</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="START_DATE" id="F98431F0-5A6A-5546-5384-4635C7C152D7">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<comment><![CDATA[discount coupon start date]]></comment>
+<commentInRDBMS><![CDATA[discount coupon start date]]></commentInRDBMS>
+<generatorID>95DAA093-9F31-38DC-D27F-50A77DCC6CE0</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="END_DATE" id="08C439E3-D9F4-9419-8495-82413CC63175">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<comment><![CDATA[discount coupon end date]]></comment>
+<commentInRDBMS><![CDATA[discount coupon end date]]></commentInRDBMS>
+<generatorID>7B41FF7C-A2DA-3FAA-75AE-CD2B0B9149C9</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FF568034-95D9-F425-5B1B-4BE58623221D" name="DISCOUNT_INDI_PK">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<generatorID>B97E327E-E3C6-59A6-CE1A-0C39F00BAE76</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="225D96F5-7D91-8631-5864-455E6CC380EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6D952312-14EC-7F15-BB27-835D538814F3" name="DISCOUNT_INDI_JC_DISCOUNT_FK">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<generatorID>902C9452-D489-EB25-C9A6-CD3E880B13A4</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="225D96F5-7D91-8631-5864-455E6CC380EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

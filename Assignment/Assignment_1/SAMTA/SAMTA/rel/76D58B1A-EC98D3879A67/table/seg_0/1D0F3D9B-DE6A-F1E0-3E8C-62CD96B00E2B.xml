@@ -1,0 +1,158 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1D0F3D9B-DE6A-F1E0-3E8C-62CD96B00E2B" name="JC_Facility">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 04:54:05 UTC</createdTime>
+<comment><![CDATA[FacilityID
+]]></comment>
+<commentInRDBMS><![CDATA[FacilityID
+]]></commentInRDBMS>
+<generatorID>9394D1F6-5991-894C-9E8F-E724875F1F5A</generatorID>
+<ownerDesignName>SAMTA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="JC_Facility_ID" id="E745ABC2-F8A7-5D72-60CB-BF551197E968">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 04:54:05 UTC</createdTime>
+<generatorID>A90FBCF3-9976-2466-6094-AB7D208509FF</generatorID>
+<ownerDesignName>SAMTA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_JC_Facility_FacilityID</notNullConstraintName>
+</Column>
+<Column name="Elevator" id="9A3D8CC6-879D-A6E9-3432-8AA44F069EDA">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 04:54:05 UTC</createdTime>
+<generatorID>8B476EFB-30B4-5966-B929-6F2A04C2289D</generatorID>
+<ownerDesignName>SAMTA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Escalator" id="F03B05AD-7BE4-9700-AE0D-C1A4592D60D6">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 04:54:05 UTC</createdTime>
+<generatorID>EDA3EC4E-CE26-52CC-5799-B6742EFE891C</generatorID>
+<ownerDesignName>SAMTA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Restroom" id="03D1C898-8069-334E-696B-15E3CA163C2C">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 04:54:05 UTC</createdTime>
+<generatorID>45C5C9CF-1640-5405-987B-FBB7DC7E3325</generatorID>
+<ownerDesignName>SAMTA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WheelchairAccessible" id="5EDA546B-AC63-C861-A232-2D4B76E4760B">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 04:54:05 UTC</createdTime>
+<generatorID>52922472-697F-3D94-F217-2B5135A8D7A2</generatorID>
+<ownerDesignName>SAMTA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TransferConnection" id="E88EA30E-A8D5-0203-930B-8E8F65365B95">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 04:54:05 UTC</createdTime>
+<generatorID>FB2EEA75-BC6C-8C8F-4DBD-7DC75BBE06D6</generatorID>
+<ownerDesignName>SAMTA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BusConnection" id="A2186ECF-D85A-96FE-906D-555FA1269C90">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 04:54:05 UTC</createdTime>
+<generatorID>23333758-9BB3-9D80-7035-036CF34417D3</generatorID>
+<ownerDesignName>SAMTA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TwentyFourHourBooth" id="1835C08E-FA7E-B200-537C-8C2F271F476D">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 04:54:05 UTC</createdTime>
+<generatorID>C871AEE3-3613-5913-A70B-EE6115244086</generatorID>
+<ownerDesignName>SAMTA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JC_Station_ID" id="9980A0CF-99D2-8E8D-788B-CD098758B2A8">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 05:07:38 UTC</createdTime>
+<ownerDesignName>SAMTA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4694E017-379D-9260-E46C-95F5B9ACF69F" referredColumn="572F97F7-66B7-D866-63C3-5BE5AC20F279"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="07B447D8-9BC6-FA4C-AA72-3E32DCF6EDDC" name="JC_Facility_PK">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 05:07:42 UTC</createdTime>
+<ownerDesignName>SAMTA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E745ABC2-F8A7-5D72-60CB-BF551197E968"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C339DE0-3377-8FE1-575E-DDAC263B7F7B" name="JC_Facility_JC_Station_FK">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 04:54:05 UTC</createdTime>
+<generatorID>9C7ED52D-CF1B-FD4C-1E30-5179D8B3C970</generatorID>
+<ownerDesignName>SAMTA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9980A0CF-99D2-8E8D-788B-CD098758B2A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

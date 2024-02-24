@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8A24D8CC-380A-67BF-A1C8-51554BC85BD6" name="JC_SALGRADE">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-05 19:12:40 UTC</createdTime>
+<ownerDesignName>Practice</ownerDesignName>
+<engineerTo>
+<item key="9243792A-5DC2-6424-5E63-AE348C0DF3D9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="GRADE" id="FC78F706-C9EA-4776-C397-88F53A4D8F7E">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-05 19:12:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[Salary Grade of Employee]]></commentInRDBMS>
+<ownerDesignName>Practice</ownerDesignName>
+<engineerTo>
+<item key="9243792A-5DC2-6424-5E63-AE348C0DF3D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HISAL" id="A644B05A-17C4-96E3-5F87-9108D518F1D4">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-05 19:13:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[High Salary Value]]></commentInRDBMS>
+<ownerDesignName>Practice</ownerDesignName>
+<engineerTo>
+<item key="9243792A-5DC2-6424-5E63-AE348C0DF3D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LOSAL" id="14BA6A28-F499-9324-1CAD-47BEE7C9C8AD">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-05 19:13:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[Low Salary Value]]></commentInRDBMS>
+<ownerDesignName>Practice</ownerDesignName>
+<engineerTo>
+<item key="9243792A-5DC2-6424-5E63-AE348C0DF3D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

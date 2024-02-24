@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B09C690C-797D-0878-9607-DBFB8C4564DB" name="JC_Trainline">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 04:54:05 UTC</createdTime>
+<comment><![CDATA[TrainID]]></comment>
+<commentInRDBMS><![CDATA[TrainID]]></commentInRDBMS>
+<generatorID>DA2F73A8-667C-9614-54CC-1DCDDE357802</generatorID>
+<ownerDesignName>SAMTA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="JC_Trainline_ID" id="FE248DC1-38E7-A92A-95B1-C0A7BB7D9779">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 04:54:05 UTC</createdTime>
+<generatorID>9364497A-766C-4759-8B76-BFCF11C6F420</generatorID>
+<ownerDesignName>SAMTA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LineName" id="BBD225D3-F7FA-9C06-3E87-AA4ACF5B54EC">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 04:54:05 UTC</createdTime>
+<generatorID>C6BA73F3-33DF-8BFA-F998-2C06BA2B06F2</generatorID>
+<ownerDesignName>SAMTA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_JC_Trainline_LineName</notNullConstraintName>
+</Column>
+<Column name="Division" id="6B28B131-DA07-FA1C-EE11-FE1189AFA031">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 04:54:05 UTC</createdTime>
+<generatorID>927C02B8-0909-AADD-753B-C042106235A8</generatorID>
+<ownerDesignName>SAMTA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_JC_Trainline_Division</notNullConstraintName>
+</Column>
+<Column name="YearsInOperation" id="2B22BA30-5EDE-1F73-A14A-DC4734397EC5">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 04:54:05 UTC</createdTime>
+<generatorID>5AF36A54-C5B4-6E45-8965-709630BD6244</generatorID>
+<ownerDesignName>SAMTA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1B53CB45-B4FB-0792-37A8-AD7588DE730A" name="JC_Trainline_PK">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 04:54:05 UTC</createdTime>
+<ownerDesignName>SAMTA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="FE248DC1-38E7-A92A-95B1-C0A7BB7D9779"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

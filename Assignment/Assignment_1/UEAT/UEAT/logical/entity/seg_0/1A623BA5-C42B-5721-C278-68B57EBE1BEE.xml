@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1A623BA5-C42B-5721-C278-68B57EBE1BEE" name="JC_Customer">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:42 UTC</createdTime>
+<generatorID>687A60FD-5D13-17E9-9932-D00A9BEFA0F1</generatorID>
+<ownerDesignName>UEAT</ownerDesignName>
+<engineerTo>
+<item key="7C3B6871-AB9F-D909-25EB-4173B3CC0FF2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Phone_Number" id="97ACB653-4002-93E9-1254-CB6B200187F6">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:42 UTC</createdTime>
+<generatorID>4A462DA2-236F-FE1F-5255-DC7F1019DEFF</generatorID>
+<ownerDesignName>UEAT</ownerDesignName>
+<engineerTo>
+<item key="7C3B6871-AB9F-D909-25EB-4173B3CC0FF2" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BF7D0C06-10C1-1F9E-ED49-989D77C5F9B8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="F918BDA0-CAE1-3E09-A58A-4CA07D65F4B7">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:42 UTC</createdTime>
+<generatorID>22C88F29-A4DE-E577-AE32-2B9CDEED14EB</generatorID>
+<ownerDesignName>UEAT</ownerDesignName>
+<engineerTo>
+<item key="7C3B6871-AB9F-D909-25EB-4173B3CC0FF2" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>496A4691-64FC-7CE5-6F83-96F7F333F8AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Age" id="D5224785-A170-EEB3-746F-C570C931B0BA">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:42 UTC</createdTime>
+<generatorID>DEC76BD5-715A-7941-589D-4B06E63ABB24</generatorID>
+<ownerDesignName>UEAT</ownerDesignName>
+<engineerTo>
+<item key="7C3B6871-AB9F-D909-25EB-4173B3CC0FF2" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>D4F5ABEF-A1F3-6C4D-44B2-D7D263E1C5D9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Home_Address" id="904579B5-7F65-3C7B-2F83-336F8610C753">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:42 UTC</createdTime>
+<generatorID>32FF0EB9-9E1E-C9A6-278A-3CED253EAE8A</generatorID>
+<ownerDesignName>UEAT</ownerDesignName>
+<engineerTo>
+<item key="7C3B6871-AB9F-D909-25EB-4173B3CC0FF2" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6D9DC3E6-5019-37FB-A187-C60FBBA650E8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email_Address" id="5065EB39-03A6-6962-D41D-BAACC5F4459D">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:42 UTC</createdTime>
+<generatorID>B9AF7039-976E-BE76-62D0-EA55B5A231AD</generatorID>
+<ownerDesignName>UEAT</ownerDesignName>
+<engineerTo>
+<item key="7C3B6871-AB9F-D909-25EB-4173B3CC0FF2" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6D9DC3E6-5019-37FB-A187-C60FBBA650E8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Customer_Type" id="5908B6BB-A27C-2D9A-8AC8-F6BB405DEF70">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:42 UTC</createdTime>
+<generatorID>4170B0E4-9065-18B8-C67B-8D882C4960F5</generatorID>
+<ownerDesignName>UEAT</ownerDesignName>
+<engineerTo>
+<item key="7C3B6871-AB9F-D909-25EB-4173B3CC0FF2" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BF7D0C06-10C1-1F9E-ED49-989D77C5F9B8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3072A16B-DEB9-295D-A6DB-E476565901AC" name="Customer PK">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:42 UTC</createdTime>
+<generatorID>FFFA1F67-58C8-1668-F44C-69A8AA1C5674</generatorID>
+<ownerDesignName>UEAT</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7C3B6871-AB9F-D909-25EB-4173B3CC0FF2" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>97ACB653-4002-93E9-1254-CB6B200187F6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

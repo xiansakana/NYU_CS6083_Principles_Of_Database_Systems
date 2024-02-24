@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="53F1D127-5C12-FFA6-23F8-9C99D37405D6" name="JC_ORDER">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 15:50:53 UTC</createdTime>
+<ownerDesignName>ACME</ownerDesignName>
+<engineerTo>
+<item key="84D0E316-63C3-DF5D-888B-E5DFFA277AF0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ORDER_ID" id="E8FFFE40-C6AC-3F83-CC4F-080FA46F7E0A">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 15:51:02 UTC</createdTime>
+<ownerDesignName>ACME</ownerDesignName>
+<engineerTo>
+<item key="84D0E316-63C3-DF5D-888B-E5DFFA277AF0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ORDER_DATE" id="52EBEAA8-1045-4E9A-0F08-C0733E80D925">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 15:51:26 UTC</createdTime>
+<ownerDesignName>ACME</ownerDesignName>
+<engineerTo>
+<item key="84D0E316-63C3-DF5D-888B-E5DFFA277AF0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CUST_ID" id="335A835D-4E04-1899-D3B7-66E2C23114FF">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:09:38 UTC</createdTime>
+<generatorID>5BDFFC18-B725-7010-2F07-66BCC826453F</generatorID>
+<ownerDesignName>ACME</ownerDesignName>
+<engineerTo>
+<item key="84D0E316-63C3-DF5D-888B-E5DFFA277AF0" value="true"/>
+</engineerTo>
+<referedAttribute>983723B0-8759-9F07-0F4F-0645953D5BE0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ADDR_ID" id="4AE2BC3A-2D66-E8FC-EE38-A03A7BDEB0E4">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-28 16:16:16 UTC</createdTime>
+<generatorID>9EE1B3B7-2E8F-5AD6-AA19-0026991AF92D</generatorID>
+<ownerDesignName>ACME</ownerDesignName>
+<engineerTo>
+<item key="84D0E316-63C3-DF5D-888B-E5DFFA277AF0" value="true"/>
+</engineerTo>
+<referedAttribute>0D51C114-AEAA-B4A0-7E3B-E1AEA332A9CE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

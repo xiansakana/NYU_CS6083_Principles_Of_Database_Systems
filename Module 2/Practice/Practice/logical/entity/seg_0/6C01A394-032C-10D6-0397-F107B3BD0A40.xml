@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6C01A394-032C-10D6-0397-F107B3BD0A40" name="JC_DEPT">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-05 18:13:07 UTC</createdTime>
+<ownerDesignName>Practice</ownerDesignName>
+<engineerTo>
+<item key="9243792A-5DC2-6424-5E63-AE348C0DF3D9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DEPTNO" id="AF3B79CF-06E4-E4E5-A30A-075FBDC8AE99">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-05 18:13:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[Department ID Number]]></commentInRDBMS>
+<ownerDesignName>Practice</ownerDesignName>
+<engineerTo>
+<item key="9243792A-5DC2-6424-5E63-AE348C0DF3D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DNAME" id="2C7B915B-EC3F-A02D-3B0A-8FEE40061B35">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-05 18:13:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[Department Name]]></commentInRDBMS>
+<ownerDesignName>Practice</ownerDesignName>
+<engineerTo>
+<item key="9243792A-5DC2-6424-5E63-AE348C0DF3D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LOC" id="CB483C14-AF52-B4BB-7DB8-E80CEB221E3D">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-05 18:14:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Location City of the Department]]></commentInRDBMS>
+<ownerDesignName>Practice</ownerDesignName>
+<engineerTo>
+<item key="9243792A-5DC2-6424-5E63-AE348C0DF3D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0837CB4A-3BC4-52D7-C0B0-6D356CCA27F7" name="JC_DEPT PK">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-05 20:26:41 UTC</createdTime>
+<ownerDesignName>Practice</ownerDesignName>
+<engineerTo>
+<item key="9243792A-5DC2-6424-5E63-AE348C0DF3D9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AF3B79CF-06E4-E4E5-A30A-075FBDC8AE99</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

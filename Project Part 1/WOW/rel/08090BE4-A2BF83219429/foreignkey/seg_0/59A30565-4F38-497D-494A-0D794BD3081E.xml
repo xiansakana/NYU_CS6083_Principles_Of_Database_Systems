@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="59A30565-4F38-497D-494A-0D794BD3081E" containerWithKeyObject="8ED29DF0-B378-A253-7E09-030E5F4A005D" localFKIndex="8104B865-04CF-9A33-6835-0518B79AEA0F" name="JC_PAYMENT_JC_CARD_TYPE_FK">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<generatorID>19C8C145-7E43-70F8-6A87-F03BF7F9A422</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<referredTableLongName>JC_CARD_TYPE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7B8D7780-95CC-9AE9-F163-856D0656D573</referredTableID>
+<keyObject>F1FC78E0-27ED-ADFB-C2CC-7365915815B5</keyObject>
+<referredKeyID>F1FC78E0-27ED-ADFB-C2CC-7365915815B5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CARD_TYPE_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

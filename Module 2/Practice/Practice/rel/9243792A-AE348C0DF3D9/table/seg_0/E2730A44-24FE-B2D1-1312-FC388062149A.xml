@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E2730A44-24FE-B2D1-1312-FC388062149A" name="JC_SALGRADE">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-05 19:49:55 UTC</createdTime>
+<generatorID>8A24D8CC-380A-67BF-A1C8-51554BC85BD6</generatorID>
+<ownerDesignName>Practice</ownerDesignName>
+<ordsAlias>salgrade</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="GRADE" id="CD8D7CEC-DF76-8661-7B2A-A8626B5156C2">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-05 19:49:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[Salary Grade of Employee]]></commentInRDBMS>
+<generatorID>FC78F706-C9EA-4776-C397-88F53A4D8F7E</generatorID>
+<ownerDesignName>Practice</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HISAL" id="BAA5D406-306A-ED9C-C711-EE285E338B42">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-05 19:49:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[High Salary Value]]></commentInRDBMS>
+<generatorID>A644B05A-17C4-96E3-5F87-9108D518F1D4</generatorID>
+<ownerDesignName>Practice</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOSAL" id="C9125943-9406-02C8-E312-29243F33FE77">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-05 19:49:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[Low Salary Value]]></commentInRDBMS>
+<generatorID>14BA6A28-F499-9324-1CAD-47BEE7C9C8AD</generatorID>
+<ownerDesignName>Practice</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5767BBAB-042A-454E-F23F-71BB0B473B50" name="SALGRADE_PK">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-05 19:51:10 UTC</createdTime>
+<ownerDesignName>Practice</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD8D7CEC-DF76-8661-7B2A-A8626B5156C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

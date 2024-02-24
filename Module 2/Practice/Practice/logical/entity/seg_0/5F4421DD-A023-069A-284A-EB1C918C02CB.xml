@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5F4421DD-A023-069A-284A-EB1C918C02CB" name="JC_PROJECT">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-05 18:09:25 UTC</createdTime>
+<ownerDesignName>Practice</ownerDesignName>
+<engineerTo>
+<item key="9243792A-5DC2-6424-5E63-AE348C0DF3D9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PROJNO" id="7199A725-BDC5-0B41-DCF2-22FAE196BDB7">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-05 18:24:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[Project Number]]></commentInRDBMS>
+<ownerDesignName>Practice</ownerDesignName>
+<engineerTo>
+<item key="9243792A-5DC2-6424-5E63-AE348C0DF3D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PNAME" id="7A626D94-70C3-DDDE-2F0E-F3C49F07CC18">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-05 18:10:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[Name of the Project]]></commentInRDBMS>
+<ownerDesignName>Practice</ownerDesignName>
+<engineerTo>
+<item key="9243792A-5DC2-6424-5E63-AE348C0DF3D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STARTDATE" id="5879429D-3B59-1CCD-9C46-0A73562F3021">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-05 18:10:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Start Date of the Project]]></commentInRDBMS>
+<ownerDesignName>Practice</ownerDesignName>
+<engineerTo>
+<item key="9243792A-5DC2-6424-5E63-AE348C0DF3D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ENDDATE" id="EC335BB9-F747-2515-BB2D-0CC151AB1D11">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-05 18:11:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[End Date of the Project]]></commentInRDBMS>
+<ownerDesignName>Practice</ownerDesignName>
+<engineerTo>
+<item key="9243792A-5DC2-6424-5E63-AE348C0DF3D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="89C3905C-C8F7-1A24-9273-7F373F3FF9E5" name="JC_PROJECT PK">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-05 20:27:00 UTC</createdTime>
+<ownerDesignName>Practice</ownerDesignName>
+<engineerTo>
+<item key="9243792A-5DC2-6424-5E63-AE348C0DF3D9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7199A725-BDC5-0B41-DCF2-22FAE196BDB7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

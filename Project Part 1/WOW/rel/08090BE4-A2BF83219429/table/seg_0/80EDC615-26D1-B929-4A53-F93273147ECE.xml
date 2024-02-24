@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="80EDC615-26D1-B929-4A53-F93273147ECE" name="JC_VEHICLE_CLASS">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<generatorID>2515EDE3-4BED-9078-E374-AA4F15A85603</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="VEHICLE_ID" id="7E296479-E5D0-8BB2-56CD-B3262D357519">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<comment><![CDATA[vehicle class id]]></comment>
+<commentInRDBMS><![CDATA[vehicle class id]]></commentInRDBMS>
+<generatorID>D820A635-A20C-D6FA-75B8-EF8DAB2A1A9D</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VEHICLE_TYPE" id="3C558DC3-B94B-DDCB-9B06-DAEEF16EA25D">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<comment><![CDATA[vehicle type]]></comment>
+<commentInRDBMS><![CDATA[vehicle type]]></commentInRDBMS>
+<generatorID>3FF1D83B-F61F-2D80-0F23-5A611F50C4FF</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAILY_RATE" id="B6B2FFA6-F900-350D-56AA-84CF3BE12453">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<comment><![CDATA[rental rate per day]]></comment>
+<commentInRDBMS><![CDATA[rental rate per day]]></commentInRDBMS>
+<generatorID>5212465B-7B2F-9999-FAED-1B12B2569CC6</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OVER_MILEAGE_RATE" id="DDFD1967-ED7D-990F-5AEE-4459D4F72306">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<comment><![CDATA[fees for over mileage per day]]></comment>
+<commentInRDBMS><![CDATA[fees for over mileage per day]]></commentInRDBMS>
+<generatorID>0014D9BF-9C96-79E0-8340-1E8848355497</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ODO_LIMIT" id="BBF27273-7AD2-EC92-2062-79D2571FFE48">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<comment><![CDATA[odometer limit]]></comment>
+<commentInRDBMS><![CDATA[odometer limit]]></commentInRDBMS>
+<generatorID>1EFDD46E-2765-A347-CC42-57B04D10EBC8</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SERVICE_ID" id="4CA85610-8E16-A0C4-A22B-B0240E6A800E">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<comment><![CDATA[service id]]></comment>
+<commentInRDBMS><![CDATA[service id]]></commentInRDBMS>
+<generatorID>6589DA15-2F33-D06D-44A3-B5B92B4F66C5</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E420066-DFA8-C5C9-E352-5E834BA60F6C" referredColumn="FC2B6BF0-0B6A-7C00-B003-EBE99E0AEF77"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="804E6EC5-5F13-217F-ECCC-A8D90E765355" name="JC_VEHICLE_CLASS_PK">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<generatorID>D189604A-6B6B-7556-1A24-46E47C9C3D15</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E296479-E5D0-8BB2-56CD-B3262D357519"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8F10B6F7-0BA6-2C8C-042D-5CC45B2209AF" name="JC_VEHICLE_CLASS_JC_SERVICE_FK">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<generatorID>E6EFD3D9-BDDA-52B0-16DC-FD1544376195</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CA85610-8E16-A0C4-A22B-B0240E6A800E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

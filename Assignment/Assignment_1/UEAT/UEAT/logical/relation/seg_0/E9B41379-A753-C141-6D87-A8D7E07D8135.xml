@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Orders_Courier_FK" directorySegmentName="seg_0" id="E9B41379-A753-C141-6D87-A8D7E07D8135">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:42 UTC</createdTime>
+<generatorID>8F20C553-73C3-3BD1-A250-9E41D0C6C118</generatorID>
+<ownerDesignName>UEAT</ownerDesignName>
+<engineerTo>
+<item key="7C3B6871-AB9F-D909-25EB-4173B3CC0FF2" value="true"/>
+</engineerTo>
+<sourcePk>515D58C3-223B-0477-F6E5-D5CB865A2E2D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8703A6AC-1778-EF15-2CDB-9F02943E2EBB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D5A256C1-F289-D0E4-D918-8C903C2BAC06</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

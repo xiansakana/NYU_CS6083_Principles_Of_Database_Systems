@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="63794DB3-76B1-C5CC-94BF-82A0B50C3CB1" name="JC_FACULTY">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 17:20:43 UTC</createdTime>
+<generatorID>80FCAD44-1DF8-AFCC-E04F-89E4626E9BAD</generatorID>
+<ownerDesignName>CLEAR</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PERSON_ID" id="D3967458-B1BC-119D-E374-376542337224">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 17:20:43 UTC</createdTime>
+<generatorID>0F66022F-4B4E-3375-9E19-4A36630F6BBE</generatorID>
+<ownerDesignName>CLEAR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="60B968FF-A93A-5428-F704-D06567B9277E" referredColumn="CAC98B09-2740-6FC6-240A-B913DEB00566"/>
+</associations>
+</Column>
+<Column name="FACULTY_RANK" id="3AD48ED1-6467-57F9-BC69-47AAE575A054">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 17:20:43 UTC</createdTime>
+<generatorID>9B45A20D-25FF-796A-2B7B-013874884D99</generatorID>
+<ownerDesignName>CLEAR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PER_TYPE" id="7B4278A9-088A-2B05-0446-E824A2AF5410">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 17:20:43 UTC</createdTime>
+<generatorID>2F778B87-2A5D-AC8E-CE89-25A769A45B42</generatorID>
+<ownerDesignName>CLEAR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="60B968FF-A93A-5428-F704-D06567B9277E" referredColumn="110211B8-7403-04B7-350E-27034F0F30C2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CF302420-BA29-C12E-85EC-C8DE597C46E4" name="JC_FACULTY_PK">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 17:20:43 UTC</createdTime>
+<generatorID>A44BA661-6D8C-B236-C661-0CFE3F25279E</generatorID>
+<ownerDesignName>CLEAR</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3967458-B1BC-119D-E374-376542337224"/>
+<colUsage columnID="7B4278A9-088A-2B05-0446-E824A2AF5410"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="375432F5-09DE-868C-ACC7-C48B7F46906D" name="JC_FACULTY_JC_EMPLOYEE_FK">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 17:20:43 UTC</createdTime>
+<generatorID>7FCDB5A0-6662-E045-98A1-A0829541C361</generatorID>
+<ownerDesignName>CLEAR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3967458-B1BC-119D-E374-376542337224"/>
+<colUsage columnID="7B4278A9-088A-2B05-0446-E824A2AF5410"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

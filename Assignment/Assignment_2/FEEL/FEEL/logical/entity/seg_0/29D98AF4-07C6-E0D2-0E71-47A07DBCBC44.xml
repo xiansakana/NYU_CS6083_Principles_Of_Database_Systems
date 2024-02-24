@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="29D98AF4-07C6-E0D2-0E71-47A07DBCBC44" name="JC_INVOICE">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 18:39:35 UTC</createdTime>
+<ownerDesignName>FEEL</ownerDesignName>
+<engineerTo>
+<item key="FC1E8A73-4B35-D5A2-1097-7599D3DC918D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="INVOICE_ID" id="536C653B-A225-3BA2-E4B0-01A581951C26">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 18:40:05 UTC</createdTime>
+<ownerDesignName>FEEL</ownerDesignName>
+<engineerTo>
+<item key="FC1E8A73-4B35-D5A2-1097-7599D3DC918D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ORDER_ID" id="DCDE3468-8034-C5B1-6707-BF811AAC556F">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 19:04:39 UTC</createdTime>
+<generatorID>551BD70B-BB3F-925D-90F3-20130F26910B</generatorID>
+<ownerDesignName>FEEL</ownerDesignName>
+<engineerTo>
+<item key="FC1E8A73-4B35-D5A2-1097-7599D3DC918D" value="true"/>
+</engineerTo>
+<referedAttribute>1B9E9553-2F77-1832-1AC1-B009D0D657BF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7CD33A19-57A5-8EAA-19A2-DE86E978ACF0" name="JC_INVOICE PK">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 18:40:40 UTC</createdTime>
+<ownerDesignName>FEEL</ownerDesignName>
+<engineerTo>
+<item key="FC1E8A73-4B35-D5A2-1097-7599D3DC918D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>536C653B-A225-3BA2-E4B0-01A581951C26</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

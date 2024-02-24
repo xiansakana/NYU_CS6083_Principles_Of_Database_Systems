@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3A70FE5C-8AB4-E8C1-CB82-39F31C7B76A3" name="JC_EMP_PROJECT">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-05 18:21:48 UTC</createdTime>
+<ownerDesignName>Practice</ownerDesignName>
+<engineerTo>
+<item key="9243792A-5DC2-6424-5E63-AE348C0DF3D9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="HOURS" id="114DF12A-DFBE-7352-6003-DFB5905CAA50">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-05 18:21:56 UTC</createdTime>
+<ownerDesignName>Practice</ownerDesignName>
+<engineerTo>
+<item key="9243792A-5DC2-6424-5E63-AE348C0DF3D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,,4</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMPNO" id="FCD7D015-6CB1-0166-DA16-D04AE104BA7E">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-05 20:26:28 UTC</createdTime>
+<generatorID>A55D22AE-D4AA-66C6-A054-70106D4C918B</generatorID>
+<ownerDesignName>Practice</ownerDesignName>
+<engineerTo>
+<item key="9243792A-5DC2-6424-5E63-AE348C0DF3D9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>733CE5CE-141C-08F0-8BEA-BC3158200BA3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROJNO" id="9F8371DE-6008-C7CD-1CB9-BA569665A3C1">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-05 20:27:02 UTC</createdTime>
+<generatorID>714D8E2F-CC2D-7B76-CEA5-0A0540EF9BB8</generatorID>
+<ownerDesignName>Practice</ownerDesignName>
+<engineerTo>
+<item key="9243792A-5DC2-6424-5E63-AE348C0DF3D9" value="true"/>
+</engineerTo>
+<referedAttribute>7199A725-BDC5-0B41-DCF2-22FAE196BDB7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

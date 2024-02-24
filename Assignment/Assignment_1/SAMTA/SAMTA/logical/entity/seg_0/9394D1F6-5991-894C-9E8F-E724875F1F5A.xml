@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9394D1F6-5991-894C-9E8F-E724875F1F5A" name="JC_Facility">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 04:43:05 UTC</createdTime>
+<ownerDesignName>SAMTA</ownerDesignName>
+<engineerTo>
+<item key="76D58B1A-313A-103A-AB2C-EC98D3879A67" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="JC_Facility_ID" id="A90FBCF3-9976-2466-6094-AB7D208509FF">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 04:44:45 UTC</createdTime>
+<ownerDesignName>SAMTA</ownerDesignName>
+<engineerTo>
+<item key="76D58B1A-313A-103A-AB2C-EC98D3879A67" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Elevator" id="8B476EFB-30B4-5966-B929-6F2A04C2289D">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 04:43:18 UTC</createdTime>
+<ownerDesignName>SAMTA</ownerDesignName>
+<engineerTo>
+<item key="76D58B1A-313A-103A-AB2C-EC98D3879A67" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT041</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Escalator" id="EDA3EC4E-CE26-52CC-5799-B6742EFE891C">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 04:45:01 UTC</createdTime>
+<ownerDesignName>SAMTA</ownerDesignName>
+<engineerTo>
+<item key="76D58B1A-313A-103A-AB2C-EC98D3879A67" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT041</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Restroom" id="45C5C9CF-1640-5405-987B-FBB7DC7E3325">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 04:45:14 UTC</createdTime>
+<ownerDesignName>SAMTA</ownerDesignName>
+<engineerTo>
+<item key="76D58B1A-313A-103A-AB2C-EC98D3879A67" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT041</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WheelchairAccessible" id="52922472-697F-3D94-F217-2B5135A8D7A2">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 04:45:28 UTC</createdTime>
+<ownerDesignName>SAMTA</ownerDesignName>
+<engineerTo>
+<item key="76D58B1A-313A-103A-AB2C-EC98D3879A67" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT041</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TransferConnection" id="FB2EEA75-BC6C-8C8F-4DBD-7DC75BBE06D6">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 04:45:49 UTC</createdTime>
+<ownerDesignName>SAMTA</ownerDesignName>
+<engineerTo>
+<item key="76D58B1A-313A-103A-AB2C-EC98D3879A67" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT041</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BusConnection" id="23333758-9BB3-9D80-7035-036CF34417D3">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 04:46:08 UTC</createdTime>
+<ownerDesignName>SAMTA</ownerDesignName>
+<engineerTo>
+<item key="76D58B1A-313A-103A-AB2C-EC98D3879A67" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT041</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TwentyFourHourBooth" id="C871AEE3-3613-5913-A70B-EE6115244086">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 04:46:20 UTC</createdTime>
+<ownerDesignName>SAMTA</ownerDesignName>
+<engineerTo>
+<item key="76D58B1A-313A-103A-AB2C-EC98D3879A67" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT041</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="JC_Station_ID" id="F0BA05A0-BDB2-F68A-D18F-E5860C8E7AD8">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 05:26:04 UTC</createdTime>
+<generatorID>9C7ED52D-CF1B-FD4C-1E30-5179D8B3C970</generatorID>
+<ownerDesignName>SAMTA</ownerDesignName>
+<engineerTo>
+<item key="76D58B1A-313A-103A-AB2C-EC98D3879A67" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>B9BD4A67-BE06-48D5-944F-FD85081B8094</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A9A63AB5-255D-25DD-540B-BD1B6C572754" name="JC_Facility PK">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 05:26:02 UTC</createdTime>
+<ownerDesignName>SAMTA</ownerDesignName>
+<engineerTo>
+<item key="76D58B1A-313A-103A-AB2C-EC98D3879A67" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A90FBCF3-9976-2466-6094-AB7D208509FF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

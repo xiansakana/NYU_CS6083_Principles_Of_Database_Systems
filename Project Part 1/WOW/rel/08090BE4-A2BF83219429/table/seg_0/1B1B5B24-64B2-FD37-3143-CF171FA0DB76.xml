@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1B1B5B24-64B2-FD37-3143-CF171FA0DB76" name="CORPORATE">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<generatorID>51B44FA3-46E4-53C1-8901-AC7E5D8D62F1</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CUST_ID" id="167D27CE-37C8-B0B7-573D-E10BC78ADB40">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<comment><![CDATA[customer id]]></comment>
+<commentInRDBMS><![CDATA[customer id]]></commentInRDBMS>
+<generatorID>11144BF7-8309-1511-0BFB-7008151CD636</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E7D4A932-AB9D-465D-4D8E-DFF68252FD17" referredColumn="86B8F3EB-FFE2-12FD-1229-69D46EAF166E"/>
+</associations>
+</Column>
+<Column name="EMP_ID" id="8FF17D05-E2C9-F6D3-1332-E4A0FEA279AB">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<comment><![CDATA[Employee ID of the customer who rents the car on a corporate account]]></comment>
+<commentInRDBMS><![CDATA[Employee ID of the customer who rents the car on a corporate account]]></commentInRDBMS>
+<generatorID>C075D885-6FBD-1852-6979-7D634C8BF7CE</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORP_NAME" id="52EB97C4-0DA7-93A2-DB36-0E56D8F60CD6">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<comment><![CDATA[details of corporation name]]></comment>
+<commentInRDBMS><![CDATA[details of corporation name]]></commentInRDBMS>
+<generatorID>6AB7038F-46BE-8FF8-6A2D-BA5C3E64B32F</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REG_NO" id="6342F408-F7C5-66E8-152D-AF85A59ECCD5">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<comment><![CDATA[registration number of the corporation]]></comment>
+<commentInRDBMS><![CDATA[registration number of the corporation]]></commentInRDBMS>
+<generatorID>A871D2C1-9D3E-4B83-A901-ACD4E15B3EC3</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="92DDB553-F916-F027-352F-9C677D8A0BD7" name="CORPORATE_PK">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<generatorID>76BCCE2C-9758-A950-D531-F5DEBBA45A35</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="167D27CE-37C8-B0B7-573D-E10BC78ADB40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F5CF906F-F937-BB4C-3374-71370A9ABBBF" name="CORPORATE_PKv1">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<generatorID>33756CC5-A3DD-7110-89E1-89976672AC51</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FF17D05-E2C9-F6D3-1332-E4A0FEA279AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B17959B2-DA68-A86C-60C9-E0BFCC168135" name="CORPORATE_JC_CUSTOMER_FK">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<generatorID>E5346035-A21D-929A-8CE0-005988D0BE14</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="167D27CE-37C8-B0B7-573D-E10BC78ADB40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Orders" directorySegmentName="seg_0" id="80B294A0-25F2-6F75-380B-8F4D094D1DE4">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Expiration_Date" id="3B8F02D9-A423-8212-834F-C859DD767F36">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Date_Time_Delivery" id="4141EF32-F2E2-C588-6531-B9260688D258">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Tips" id="4ECFF7FD-7B92-F521-F7B4-6861D3F770C6">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Card_Number" id="5EAEF162-BE92-B0AF-A9FE-946D05AAFD58">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Restaurant_Name" id="838CFC06-2E04-EB0C-064A-9B1EEFC0D31D">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Customer_Phone_Number" id="96641E19-96EE-7B40-06F7-68549B8AB502">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Name_On_Card" id="9B8FCF95-AD97-B090-2593-2713A2F8C39A">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Order_Amount" id="9CB2B483-93FC-1283-6D63-471202446FCA">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Date_Time_Order" id="CBD35BD8-F96C-3A7A-F0DC-B82CD4A67271">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CVV_Number" id="DAFE296C-0D53-2963-5BF7-8E0760708FDE">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Order_ID" id="E57F8335-2B5A-B0FB-F710-4EA6C4C48BF7">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Courier_Phone_Number" id="E6D61C35-F79F-FAF5-4F6C-F51B1CFA73B2">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Payment_Method" id="E8FCCD0A-1DB5-9AA1-D471-1EB4A58C30A3">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Orders_Restaurant_FK" id="33907E03-3FC2-18CE-18D4-ECA2BBF055DB">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Orders_Courier_FK" id="9AD42E5B-CB95-8EF4-6B3B-5BE1AA2DFFAA">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Orders_Customer_FK" id="DF91AAEF-8F46-6BC5-E7F2-F6BECB207B34">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Orders_PK" id="243BD11C-7B9A-09DF-1BC3-88DA5E3854EB">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 17:36:37 UTC</createdTime>
+<ownerDesignName>UEAT</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

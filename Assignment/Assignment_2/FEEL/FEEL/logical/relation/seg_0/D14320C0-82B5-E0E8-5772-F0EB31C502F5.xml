@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Places" directorySegmentName="seg_0" id="D14320C0-82B5-E0E8-5772-F0EB31C502F5">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-22 18:42:58 UTC</createdTime>
+<ownerDesignName>FEEL</ownerDesignName>
+<engineerTo>
+<item key="FC1E8A73-4B35-D5A2-1097-7599D3DC918D" value="true"/>
+</engineerTo>
+<sourcePk>45316B17-222E-0669-D9E1-12A195AB7887</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DB59488E-57D3-D79E-8892-0A252214D780</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AA4E4E59-6995-4AC6-17E8-69C77DE5990C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

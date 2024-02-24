@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8ED29DF0-B378-A253-7E09-030E5F4A005D" name="JC_PAYMENT">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<generatorID>2FA125A8-E88A-5FAE-8D72-EDB0828E1EEF</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PAYMENT_ID" id="72C9620D-4B07-3E04-8087-2BDB6D55257D">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<comment><![CDATA[PAYMENT ID]]></comment>
+<commentInRDBMS><![CDATA[PAYMENT ID]]></commentInRDBMS>
+<generatorID>ADEB3E87-B213-AC41-AEFC-E5A9F96C8AED</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAYMENT_DATE" id="76D8DC8C-4383-EAF7-8E9B-B39EA3D86A1A">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<comment><![CDATA[PAYMENT DATE]]></comment>
+<commentInRDBMS><![CDATA[PAYMENT DATE]]></commentInRDBMS>
+<generatorID>E1AF45BC-80ED-C678-1463-48F17B358559</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CARD_NO" id="07CB96DE-ABD2-A451-14B7-035CEB14AA15">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<comment><![CDATA[card number]]></comment>
+<commentInRDBMS><![CDATA[card number]]></commentInRDBMS>
+<generatorID>F1A75716-4A59-6F8B-51BA-778A8947AA9B</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>16</dataTypePrecision>
+<ownDataTypeParameters>,16,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INVOICE_ID" id="8502EDBF-2882-1D0D-1643-8ECB1D5EA02B">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<comment><![CDATA[invoice id]]></comment>
+<commentInRDBMS><![CDATA[invoice id]]></commentInRDBMS>
+<generatorID>6BF6E4BC-34D1-5190-89A0-9BD604FEDEA7</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3338AF74-E0B6-D054-9C13-FBA2BF98209E" referredColumn="CAD398BD-50E4-99BC-05B6-C5BB08640AE2"/>
+</associations>
+</Column>
+<Column name="CVV" id="8C7EB360-8D70-B688-9B7B-3A61C4EB3FDE">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[CVV]]></commentInRDBMS>
+<generatorID>1BAA1E67-474F-E546-4CBE-D61A2580499B</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CARD_TYPE_ID" id="E3407B32-4B6C-1493-A87C-0D28AA969596">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<comment><![CDATA[card type id]]></comment>
+<commentInRDBMS><![CDATA[card type id]]></commentInRDBMS>
+<generatorID>9FCA7496-F86D-5EAD-EB34-B7C6CFA40C11</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="59A30565-4F38-497D-494A-0D794BD3081E" referredColumn="C760D2EC-DFC2-E96F-D51D-165A945173F6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7130B7DE-3892-09F5-7B28-0548B48BA5B0" name="JC_PAYMENT_PK">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<generatorID>7FC45F5D-5947-D30E-660D-D83E5C1D376B</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72C9620D-4B07-3E04-8087-2BDB6D55257D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="85BAC4B3-CC5F-9A10-0A6B-98AF81D450CF" name="JC_PAYMENT_JC_INVOICE_FK">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<generatorID>93F9E63C-8AB6-25BD-1545-00D07E406CC5</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8502EDBF-2882-1D0D-1643-8ECB1D5EA02B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8104B865-04CF-9A33-6835-0518B79AEA0F" name="JC_PAYMENT_JC_CARD_TYPE_FK">
+<createdBy>cj</createdBy>
+<createdTime>2023-12-08 09:40:14 UTC</createdTime>
+<generatorID>19C8C145-7E43-70F8-6A87-F03BF7F9A422</generatorID>
+<ownerDesignName>WOW</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3407B32-4B6C-1493-A87C-0D28AA969596"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

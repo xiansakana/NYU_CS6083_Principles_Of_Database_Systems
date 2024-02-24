@@ -1,0 +1,455 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - Car Rental</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+        }
+        .modal-container {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 50;
+            width: 90%;
+            max-width: none; /* 希望的任何宽度 */
+            margin: 0 auto;
+            overflow-y: auto;
+            background: #333;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(94, 84, 84, 0.3);
+        }
+        table {
+            width: 100%; /* 确保表格宽度填满容器 */
+            table-layout: fixed; /* 确保列宽均匀分布 */
+        }
+        th, td {
+            word-break: break-word; /* 如果内容太长，允许在单词间换行 */
+            overflow: hidden; /* 隐藏超出单元格的内容 */
+            text-overflow: ellipsis; /* 显示省略号表示内容被截断 */
+            white-space: nowrap; /* 防止内容换行 */
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+    <header class="bg-gray-800 py-4">
+        <div class="container mx-auto flex justify-between items-center px-6">
+            <div class="flex items-center">
+                <img alt="Luxury Car Rental Logo" class="mr-3" height="50" src="{{ url_for('static', filename='images/logo.png') }}" width="100"/>
+                <span class="text-2xl font-bold uppercase tracking-wide text-yellow-500">
+                    Car Rental - Admin
+                </span>
+            </div>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a class="text-yellow-500" href="/logout">Logout</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main class="py-8">
+        <div class="container mx-auto px-6">
+            <h1 class="text-4xl font-bold mb-8 text-center">WOW Car Dashboard</h1>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+            <!-- Dashboard Stats -->
+            <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                <h2 class="text-2xl font-semibold mb-2">Number of Users</h2>
+                <p class="text-4xl font-bold text-yellow-500">{{ num_users }}</p>
+            </div>
+            <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                <h2 class="text-2xl font-semibold mb-2">Number of Vehicles</h2>
+                <p class="text-4xl font-bold text-yellow-500">{{ num_vehicles }}</p>
+            </div>
+            <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                <h2 class="text-2xl font-semibold mb-2">Number of Orders</h2>
+                <p class="text-4xl font-bold text-yellow-500">{{ num_orders }}</p>
+            </div>
+            <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                <h2 class="text-2xl font-semibold mb-2">Vehicle Brands</h2>
+                <p class="text-4xl font-bold text-yellow-500">{{ num_brands }}</p>
+            </div>
+            </div>
+
+            <!-- Brand Management -->
+            <div class="mb-8">
+                <h2 class="text-3xl font-bold mb-4">Brand Management</h2>
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                    <p class="mb-4">Register a new brand</p>
+                    <form action="{{ url_for('add_brand') }}" method="post">
+                        <input type="text" name="brand_name" placeholder="Brand Name" class="w-full p-2 mb-4 text-black">
+                        <button type="submit" class="bg-yellow-500 text-black px-4 py-2 rounded hover:bg-yellow-600 transition-colors duration-300">Register Brand</button>
+                    </form>
+  
+
+                    <p class="mt-4 mb-4">Manage existing brands</p>
+        <!-- Button to Open Modal for Managing Brands -->
+        <button onclick="openModal('manageBrandsModalContainer')" class="bg-yellow-500 text-black px-4 py-2 rounded hover:bg-yellow-600 transition-colors duration-300">
+            Manage Brands
+        </button>
+
+        <!-- Modal for Managing Brands -->
+        <div class="modal opacity-0 pointer-events-none fixed w-full h-full top-0 left-0 flex items-center justify-center" id="manageBrandsModalContainer">
+            <div class="modal-overlay absolute w-full h-full bg-gray-900 opacity-50" onclick="modalClose('manageBrandsModalContainer')"></div>
+            <div class="modal-container" style="background: #333;">
+                <div class="modal-content py-4 text-left px-6" id="manageBrandsModal">
+                    <!-- Modal Title -->
+                    <div class="flex justify-between items-center pb-3">
+                        <p class="text-2xl font-bold">Manage Brands</p>
+                        <div class="modal-close cursor-pointer z-50" onclick="modalClose('manageBrandsModalContainer')">
+                            <!-- SVG for closing modal -->
+                        </div>
+                    </div>
+                    <!-- Table for Managing Brands -->
+                    <div class="mb-8">
+                        <h2 class="text-3xl font-bold mb-4">Brands</h2>
+                        <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                            <table class="w-full text-left">
+                                <thead>
+                                    <tr>
+                                        <th class="py-2 px-4">Brand Name</th>
+                                        <th class="py-2 px-4">Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="brandsTableBody">
+                                    <!-- 数据将通过服务器端代码动态填充 -->
+                                    <tr>
+                                        <td class="py-2 px-4"><%= brand.name %></td>
+                                        <td class="py-2 px-4">
+                                            <button class="bg-blue-500 text-black px-3 py-1 rounded hover:bg-blue-600">Edit</button>
+                                            <button class="bg-red-500 text-black px-3 py-1 rounded hover:bg-red-600">Delete</button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <!-- Car Management Section -->
+        <div class="mb-8">
+            <h2 class="text-3xl font-bold mb-4">Car Management</h2>
+            <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                <!-- Button to Open Modal for New Car Registration -->
+                <button onclick="openModal('registerCarModal')" class="bg-yellow-500 text-black px-4 py-2 rounded hover:bg-yellow-600 transition-colors duration-300">
+                    Register a New Car
+                </button>
+        <div class="modal opacity-0 pointer-events-none fixed w-full h-full top-0 left-0 flex items-center justify-center" id="registerCarModal">
+            <div class="modal-overlay absolute w-full h-full bg-gray-900 opacity-50" onclick="modalClose('registerCarModal')"></div>
+            
+            <div class="modal-container" style="background: #333;" id="registerCarModal">
+                <div class="modal-content py-4 text-left px-6">
+                    <!-- Modal Title -->
+                    <div class="flex justify-between items-center pb-3">
+                        <p class="text-2xl font-bold">Register a New Car</p>
+                        <div class="modal-close cursor-pointer z-50" onclick="modalClose('registerCarModal')">
+                            <!-- SVG for closing modal -->
+                        </div>
+                    </div>
+                <form action="/admin/register_car" method="post" enctype="multipart/form-data"></form>
+                    <!-- Select Brand -->
+                    <div class="mb-4">
+                        <label class="block mb-2">Select Brand:</label>
+                        <select name="brand" class="w-full p-2 mb-4 text-black">
+                            {% for brand in brands %}
+                            <option value="{{ brand.vehicle_make }}">{{ brand.vehicle_make }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+
+                    <!-- Car Title -->
+                    <div class="mb-4">
+                        <label class="block mb-2">Car Title:</label>
+                        <input type="text" name="title" placeholder="Car Title" class="w-full p-2 text-black" required>
+                    </div>
+
+                    <!-- Car Description -->
+                    <div class="mb-4">
+                        <label class="block mb-2">Car Description:</label>
+                        <textarea name="description" placeholder="Car Description" class="w-full p-2 text-black"></textarea>
+                    </div>
+
+                    <!-- Price Per Day -->
+                    <div class="mb-4">
+                        <label class="block mb-2">Price Per Day:</label>
+                        <input type="number" name="price_per_day" placeholder="Price Per Day" class="w-full p-2 text-black">
+                    </div>
+
+                    <!-- Model Year -->
+                    <div class="mb-4">
+                        <label class="block mb-2">Model Year:</label>
+                        <input type="number" name="model_year" placeholder="Model Year" class="w-full p-2 text-black">
+                    </div>
+
+                    <!-- Seating Capacity -->
+                    <div class="mb-4">
+                        <label class="block mb-2">Seating Capacity:</label>
+                        <input type="number" name="seating_capacity" placeholder="Seating Capacity" class="w-full p-2 text-black">
+                    </div>
+
+                    <!-- Vehicle Odometer Limit -->
+                    <div class="mb-4">
+                        <label class="block mb-2">Vehicle Odometer Limit:</label>
+                        <input type="number" name="odometer_limit" placeholder="Odometer Limit" class="w-full p-2 text-black">
+                    </div>
+
+                    <!-- Vehicle OverMileage Fees -->
+                    <div class="mb-4">
+                        <label class="block mb-2">OverMileage Fees:</label>
+                        <input type="number" name="overmileage_fees" placeholder="OverMileage Fees" class="w-full p-2 text-black">
+                    </div>
+
+                    <!-- Select Fuel Type -->
+                    <div class="mb-4">
+                        <label class="block mb-2">Select Fuel Type:</label>
+                        <select name="fuel_type" class="w-full p-2 mb-4 text-black">
+                            <option value="Petrol">Petrol</option>
+                            <option value="Diesel">Diesel</option>
+                            <option value="Electric">Electric</option>
+                            <!-- Additional fuel types as needed -->
+                        </select>
+                    </div>
+
+                    <!-- Car Image Upload -->
+                    <div class="mb-4">
+                        <label class="block mb-2">Car Image:</label>
+                        <input type="file" name="image" accept="image/*" class="w-full p-2 text-black">
+                    </div>
+
+                    <button type="submit" class="bg-yellow-500 text-black px-4 py-2 rounded hover:bg-yellow-600 transition-colors duration-300">Register Car</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+
+        <!-- Button to Open Modal for Managing Registered Cars -->
+        <button onclick="openModal('manageCarsModal')" class="bg-yellow-500 text-black px-4 py-2 rounded hover:bg-yellow-600 transition-colors duration-300">
+            Manage Registered Cars
+        </button>
+
+        <!-- Modal for Managing Registered Cars -->
+        <div class="modal opacity-0 pointer-events-none fixed w-full h-full top-0 left-0 flex items-center justify-center" id="manageCarsModal">
+            <div class="modal-overlay absolute w-full h-full bg-gray-900 opacity-50" onclick="modalClose('manageCarsModal')"></div>
+            
+            <div class="modal-container" style="background: #333;" id="manageCarsModal">
+                <div class="modal-content py-4 text-left px-6">
+                    <!-- Modal Title -->
+                    <div class="flex justify-between items-center pb-3">
+                        <p class="text-2xl font-bold">Manage Registered Cars</p>
+                        <div class="modal-close cursor-pointer z-50" onclick="modalClose('manageCarsModal')">
+                            <!-- SVG for closing modal -->
+                        </div>
+                    </div>
+                    <!-- Table for Managing Registered Cars -->
+                    <div class="mb-8">
+                        <h2 class="text-3xl font-bold mb-4">Registered Cars</h2>
+                        <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                            <table class="w-full text-left">
+                                <thead>
+                                    <tr>
+                                        <th class="py-2 px-4">Brand</th>
+                                        <th class="py-2 px-4">Title</th>
+                                        <th class="py-2 px-4">Price/Day</th>
+                                        <th class="py-2 px-4">Model Year</th>
+                                        <th class="py-2 px-4">Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="carsTableBody">
+                                    {% for car in cars %}
+                                    <tr>
+                                        <td class="py-2 px-4">{{ car.brand }}</td>
+                                        <td class="py-2 px-4">{{ car.title }}</td>
+                                        <td class="py-2 px-4">{{ car.pricePerDay }}</td>
+                                        <td class="py-2 px-4">{{ car.modelYear }}</td>
+                                        <td class="py-2 px-4">
+                                            <button class="bg-blue-500 text-black px-3 py-1 rounded hover:bg-blue-600">Edit</button>
+                                            <button class="bg-red-500 text-black px-3 py-1 rounded hover:bg-red-600">Delete</button>
+                                        </td>
+                                    </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    
+
+
+        <!-- User Management Section -->
+        <div class="mb-8">
+            <h2 class="text-3xl font-bold mb-4">User Management</h2>
+            <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                <!-- Button to Open Modal for User Management -->
+                <button onclick="openModal('userManagementModal')" class="bg-yellow-500 text-black px-4 py-2 rounded hover:bg-yellow-600 transition-colors duration-300">
+                    Manage Users
+                </button>
+                <!-- User Management Modal -->
+                <div class="modal opacity-0 pointer-events-none fixed w-full h-full top-0 left-0 flex items-center justify-center" id="userManagementModal">
+                    <div class="modal-overlay absolute w-full h-full bg-gray-900 opacity-50" onclick="modalClose('userManagementModal')"></div>
+                    <div class="modal-container bg-white w-11/12 md:max-w-3xl mx-auto rounded shadow-lg z-50 overflow-y-auto" style="background: #333;">
+                        <div class="modal-content py-4 text-left px-6">
+                            <!-- Modal Title -->
+                            <div class="flex justify-between items-center pb-3">
+                                <p class="text-2xl font-bold">User Management</p>
+                                <div class="modal-close cursor-pointer z-50" onclick="modalClose('userManagementModal')">
+                                    <!-- SVG for closing modal -->
+                                </div>
+                            </div>
+                            <!-- Modal Body - User Table -->
+                            <table class="w-full text-left">
+                                <thead>
+                                    <tr>
+                                        <th class="py-2 px-4">Username</th>
+                                        <th class="py-2 px-4">Email</th>
+                                        <th class="py-2 px-4">Role</th>
+                                        <th class="py-2 px-4">Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="usersTableBody">
+                                    <!-- User data rows will be populated here -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- User Management Section Ends Here -->
+        </div>
+
+
+    </main>
+    <footer class="bg-gray-800 py-6">
+        <div class="container mx-auto text-center">
+            <p>© 2023 WOW Car Rental Company. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        // 已有的函数保持不变
+        function openModal(modalID) {
+            document.getElementById(modalID).classList.remove('opacity-0', 'pointer-events-none');
+            if (modalID === 'manageBrandsModalContainer') {
+                fetchBrands();
+            } else if (modalID === 'registerCarModal') {
+                fetchBrandsForRegisterCar();
+            } else if (modalID === 'manageCarsModal') {
+                fetchCarsForManagement();
+            } else if (modalID === 'userManagementModal') {
+                fetchUsersForManagement(); 
+            }
+        }
+
+    
+        function modalClose(modalID){
+            document.getElementById(modalID).classList.add('opacity-0', 'pointer-events-none');
+        }
+    
+        // 新增的函数用于获取品牌数据
+        function fetchBrands() {
+            fetch('/admin/manage_brands')
+                .then(response => response.json())
+                .then(data => {
+                    updateBrandsTable(data.brands);
+                })
+                .catch(error => console.error('Error fetching brands:', error));
+        }
+        // 更新模态框中的品牌表格
+        function updateBrandsTable(brands) {
+            const tableBody = document.getElementById('brandsTableBody');
+            tableBody.innerHTML = '';  // 清空现有内容
+            brands.forEach(brand => {
+                const row = `<tr>
+                    <td class="py-2 px-4">${brand.vehicle_make}</td>
+                    <td class="py-2 px-4">
+                        <button class="bg-blue-500 text-white px-3 py-1 rounded hover:bg-blue-600">Edit</button>
+                        <button class="bg-red-500 text-white px-3 py-1 rounded hover:bg-red-600">Delete</button>
+                    </td>
+                </tr>`;
+                tableBody.innerHTML += row;
+            });
+        }
+
+        function fetchBrandsForRegisterCar() {
+            fetch('/admin/manage_brands')
+                .then(response => response.json())
+                .then(data => {
+                    const select = document.querySelector('#registerCarModal select[name="brand"]');
+                    select.innerHTML = '';  // 清空现有选项
+                    data.brands.forEach(brand => {
+                        const option = document.createElement('option');
+                        option.value = brand.vehicle_make;
+                        option.textContent = brand.vehicle_make;
+                        select.appendChild(option);
+                    });
+                })
+                .catch(error => console.error('Error fetching brands:', error));
+        }
+
+        function fetchCarsForManagement() {
+            fetch('/admin/manage_cars')
+                .then(response => response.json())
+                .then(data => {
+                    const tableBody = document.getElementById('carsTableBody');
+                    tableBody.innerHTML = ''; // 清空现有内容
+                    data.cars.forEach(car => {
+                        const row = `<tr>
+                            <td class="py-2 px-4">${car.brand}</td>
+                            <td class="py-2 px-4">${car.title}</td>
+                            <td class="py-2 px-4">${car.pricePerDay}</td>
+                            <td class="py-2 px-4">${car.modelYear}</td>
+                            <td class="py-2 px-4">
+                                <button class="bg-blue-500 text-white px-3 py-1 rounded hover:bg-blue-600">Edit</button>
+                                <button class="bg-red-500 text-white px-3 py-1 rounded hover:bg-red-600">Delete</button>
+                        </tr>`;
+                        tableBody.innerHTML += row;
+                    });
+                })
+                .catch(error => console.error('Error fetching cars:', error));
+        }
+
+
+        function fetchUsersForManagement() {
+            fetch('/admin/manage_users')
+                .then(response => response.json())
+                .then(data => {
+                    const tableBody = document.getElementById('usersTableBody');
+                    tableBody.innerHTML = '';
+                    data.users.forEach(user => {  // 注意这里的 data.users
+                        const row = `<tr>
+                            <td class="py-2 px-4">${user.username}</td>
+                            <td class="py-2 px-4">${user.email}</td>
+                            <td class="py-2 px-4">${user.role}</td>
+                            <td class="py-2 px-4">
+                                <button class="bg-blue-500 text-white px-3 py-1 rounded hover:bg-blue-600">Edit</button>
+                                <button class="bg-red-500 text-white px-3 py-1 rounded hover:bg-red-600">Delete</button>
+                            </td>
+                        </tr>`;
+                        tableBody.innerHTML += row;
+                    });
+                })
+                .catch(error => console.error('Error fetching users:', error));
+        }
+
+
+
+    </script>
+    
+
+
+</body>
+</html>

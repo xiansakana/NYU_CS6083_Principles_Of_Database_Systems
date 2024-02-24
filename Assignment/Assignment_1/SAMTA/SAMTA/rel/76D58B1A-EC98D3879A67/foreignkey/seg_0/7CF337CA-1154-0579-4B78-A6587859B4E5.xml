@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7CF337CA-1154-0579-4B78-A6587859B4E5" containerWithKeyObject="76B294DF-7C5C-C4E7-E65F-547D56AB7C9B" localFKIndex="0330AF8A-389B-8574-2B22-BDBFF05D5699" name="JC_Operation_JC_Trainline_FK">
+<createdBy>cj</createdBy>
+<createdTime>2023-10-12 05:01:21 UTC</createdTime>
+<generatorID>1123A1AD-D5D5-6C68-2C95-17B84D146D57</generatorID>
+<ownerDesignName>SAMTA</ownerDesignName>
+<referredTableLongName>JC_Trainline</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B09C690C-797D-0878-9607-DBFB8C4564DB</referredTableID>
+<keyObject>1B53CB45-B4FB-0792-37A8-AD7588DE730A</keyObject>
+<referredKeyID>1B53CB45-B4FB-0792-37A8-AD7588DE730A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>JC_Trainline_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
